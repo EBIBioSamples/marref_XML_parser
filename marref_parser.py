@@ -10,9 +10,11 @@ geolocnamegazenvo url because link could be cleaner?
 any attributes ending in 'missing' although these would be stripped automatically by biosamples
 genus, family, order, class, phylum, kingdom
 """
+
 import os, shutil
 from bs4 import BeautifulSoup, Tag
 import requests, sys, csv, re, json
+from boltons.iterutils import remap
 
 output_folder = './bioschemas'
 
@@ -21,9 +23,9 @@ mapping_field = {
     'name': 'fullscientificname',
     'url': 'mmpid_url',
     'description': 'comments',
-    'dataset': ['bioprojectaccession', 'genbankaccession', 'silvaaccessionssu',
-                'silvaaccessionlsu', 'uniprotaccession', 'assemblyaccession',
-                'ncbirefseqaccession', 'ncbirefseqaccession'],
+    'dataset': ['bioprojectaccession_url', 'genbankaccession_url', 'silvaaccessionssu_url',
+                'silvaaccessionlsu_url', 'uniprotaccession_url', 'assemblyaccession_url',
+                'ncbirefseqaccession_url', 'ncbirefseqaccession_url'],
     'additionalProperty': [
         {
             'name': 'Run Id',
@@ -54,15 +56,14 @@ mapping_field = {
 }
 
 
-def camel_case_split(identifier):
-    matches = re.finditer('.+?(?:(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])|$)', identifier)
-    return [m.group(0) for m in matches]
-
-
-def record2jsonld(record):
+def get_record_dict(record):
+    """
+    Convert the xml record into a dictionary, removing the missing attributes
+    :param record: the xml record
+    :return: a dict with the filds
+    """
     record_dict = {}
     for attribute in record.children:  # iterate through all the tags in each sample
-        # if attribute.name is not None and attribute.name[-7:] != 'missing' and attribute.string is not None:
         if isinstance(attribute, Tag):
             name = attribute.name
             if not name.endswith('missing'):
@@ -74,31 +75,15 @@ def record2jsonld(record):
                 if url is not None:
                     field_name = "{}_url".format(name)
                     record_dict[field_name] = url
-            # attr_children = [c for c in attribute.children if isinstance(c, Tag)]
-            # if attribute.name is not None and attribute.name[-7:] != 'missing':
-            #     record_dict[attribute.name] = attribute.string
-            #     if attribute.name == 'mmpid':
-            #         record_dict['mmpid_url'] = attribute['url']
+    return record_dict
 
-        # print(attribute.item)
 
-        # TODO add ability to look inside attributes for items and extract them.
-
-    # biosampleaccession = record_dict.get('biosampleaccession')
-    # mmpid = record_dict.get('mmpid')
-    # name = record_dict.get('fullscientificname')
-    # url = record_dict.get('mmpid_url')
-    # description = record_dict.get('comments')
-    # datasets = [
-    #     record_dict.get("bioprojectaccession"),
-    #     record_dict.get("genbankaccession"),
-    #     record_dict.get("silvaaccessionssu"),
-    #     record_dict.get("silvaaccessionlsu"),
-    #     record_dict.get("uniprotaccession"),
-    #     record_dict.get("assemblyaccession"),
-    #     record_dict.get("ncbirefseqaccession"),
-    # ]
-    # gaz = record_dict.get('geolocnamegazenvo')
+def record_to_jsonld(record_dict):
+    """
+    Map a record dictionary into the corresponding json-ld dictionary
+    :param record_dict: the dictionary to convert
+    :return: the json-ld map
+    """
 
     jsonld = dict()
     jsonld['@context'] = 'http://schema.org'
@@ -107,6 +92,7 @@ def record2jsonld(record):
         if key == 'additionalProperty':
             add_properties = list()
             for prop in value:
+                assert isinstance(prop, dict)
                 pv = record_dict.get(prop.get('value', None))
                 if pv is not None:
                     add_prop = dict()
@@ -131,16 +117,7 @@ def record2jsonld(record):
                 jsonld[key] = [record_dict.get(v) for v in value]
             else:
                 jsonld[key] = record_dict.get(value)
-    # jsonld['identifier'] = ["biosamples:{}".format(biosampleaccession), "mmp.ref:{}".format(mmpid)]
-    # jsonld['name'] = name
-    # jsonld['description'] = description
-    # jsonld['url'] = url
-    # jsonld['dataset'] = datasets
     return jsonld
-
-
-# print(record_dict)
-# print(record_dict.get('assembly'))
 
 
 def souper(input_xml):
@@ -148,8 +125,8 @@ def souper(input_xml):
         soup = BeautifulSoup(fin, "lxml")
         tag = soup.findAll('record')
         for record in tag:
-            # print(record.prettify())
-            jsonld = record2jsonld(record)
+            record_dict = get_record_dict(record)
+            jsonld = record_to_jsonld(record_dict)
             mmp_id = [_id for _id in jsonld['identifier'] if _id.startswith('MMP')][0]
             filename = os.path.join(output_folder, "{}.json".format(mmp_id))
             with open(filename, 'w') as fout:
