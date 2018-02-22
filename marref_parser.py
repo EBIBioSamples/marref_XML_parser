@@ -11,9 +11,10 @@ any attributes ending in 'missing' although these would be stripped automaticall
 genus, family, order, class, phylum, kingdom
 """
 
-import os, shutil
+import os
+import shutil
+import json
 from bs4 import BeautifulSoup, Tag
-import requests, sys, csv, re, json
 from boltons.iterutils import remap
 
 output_folder = './bioschemas'
@@ -54,6 +55,10 @@ mapping_field = {
         }
     ]
 }
+
+
+def drop_empty_values(path, key, value):
+    return value is not None
 
 
 def get_record_dict(record):
@@ -114,7 +119,7 @@ def record_to_jsonld(record_dict):
             jsonld['additionalProperty'] = add_properties
         else:
             if isinstance(value, list):
-                jsonld[key] = [record_dict.get(v) for v in value]
+                jsonld[key] = [record_dict.get(v) for v in value if record_dict.get(v) is not None]
             else:
                 jsonld[key] = record_dict.get(value)
     return jsonld
@@ -127,6 +132,7 @@ def souper(input_xml):
         for record in tag:
             record_dict = get_record_dict(record)
             jsonld = record_to_jsonld(record_dict)
+            jsonld = remap(jsonld, drop_empty_values)
             mmp_id = [_id for _id in jsonld['identifier'] if _id.startswith('MMP')][0]
             filename = os.path.join(output_folder, "{}.json".format(mmp_id))
             with open(filename, 'w') as fout:

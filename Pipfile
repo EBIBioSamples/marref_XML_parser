@@ -6,5 +6,7 @@ name = "pypi"
 [dev-packages]
 
 [packages]
+
 "beautifulsoup4" = "*"
 boltons = "*"
+lxml = "*"
