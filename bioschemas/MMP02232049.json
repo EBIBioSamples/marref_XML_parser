@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02232049",
+    "MMP02232049"
+  ],
+  "name": "Rivularia sp. PCC 7116",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232049",
+  "description": "-",
+  "dataset": [
+    "PRJNA63147",
+    null,
+    "63147",
+    "63147",
+    null,
+    "GCA_000316665.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "La Paz",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "La Paz",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008676"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Rivularia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Rivularia",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=373994"
+        }
+      ]
+    }
+  ]
+}

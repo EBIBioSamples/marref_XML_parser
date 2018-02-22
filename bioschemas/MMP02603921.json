@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603921",
+    "MMP02603921"
+  ],
+  "name": "Prochlorococcus marinus AS9601",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603921",
+  "description": "Prochlorococcus marinus str. AS9601.This cyanobacterium was collected in the Arabian Sea at a depth of 50 meters and isolated by filter fractionation. It belongs to Clade HL-II; the most abundant group in the North Atlantic and North Pacific Oceans; often constituting over 90% of the total population. Strain AS9601 outgrows MIT9312 in temperatures exceeding 28oC; and can grow at significantly higher temperatures.",
+  "dataset": [
+    "PRJNA13548",
+    null,
+    "13548",
+    "13548",
+    null,
+    "GCA_000015645.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Arabian Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Arabian Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002457"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus marinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=146891"
+        }
+      ]
+    }
+  ]
+}

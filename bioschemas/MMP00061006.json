@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00061006",
+    "MMP00061006"
+  ],
+  "name": "Aeropyrum camini SY1 = JCM 12091",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061006",
+  "description": "Comparative Genome Analysis of Aeropyrum camini SY1 and Aeropyrum pernix K1",
+  "dataset": [
+    "PRJDB107",
+    null,
+    "107",
+    "107",
+    null,
+    "GCA_000591035.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Suiyo Seamount",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Suiyo Seamount",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002487"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Aeropyrum camini",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Aeropyrum camini",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1198449"
+        }
+      ]
+    }
+  ]
+}

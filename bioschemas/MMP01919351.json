@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN01919351",
+    "MMP01919351"
+  ],
+  "name": "Thermotoga maritima MSB8",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP01919351",
+  "description": "Thermotoga maritima MSB8 Genome Resequencing.",
+  "dataset": [
+    "PRJNA185601",
+    null,
+    "185601",
+    "185601",
+    null,
+    "GCF_000390265.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Porto Levante",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Porto Levante",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00187520"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermotoga maritima",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermotoga maritima",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=243274"
+        }
+      ]
+    }
+  ]
+}

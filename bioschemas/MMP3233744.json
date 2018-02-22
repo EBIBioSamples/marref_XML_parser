@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3233744",
+    "MMP3233744"
+  ],
+  "name": "Synechococcus sp. WH 8103",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3233744",
+  "description": "The genome of Synechococcus sp. WH8103 was sequenced by the Genoscope (Evry; France) in the framework of the METASYN project aiming at getting the complete genome sequence of 25 marine Synechococcus strains that covers a wide genetic and pigment diversity within this genus.",
+  "dataset": [
+    "PRJEB8389",
+    null,
+    "8389",
+    "8389",
+    null,
+    "GCF_001182765.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Atlantic Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Atlantic Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000344"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Synechococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Synechococcus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29410"
+        }
+      ]
+    }
+  ]
+}

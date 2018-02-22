@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03010447",
+    "MMP03010447"
+  ],
+  "name": "Yersinia ruckeri YRB",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03010447",
+  "description": "Genome sequencing of Yersinia ruckeri YRB",
+  "dataset": [
+    "PRJNA237812",
+    null,
+    "237812",
+    "237812",
+    null,
+    "GCA_000834255.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Yersinia ruckeri",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Yersinia ruckeri",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29486"
+        }
+      ]
+    }
+  ]
+}

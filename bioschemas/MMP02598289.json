@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598289",
+    "MMP02598289"
+  ],
+  "name": "Sulfurimonas denitrificans DSM 1251",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598289",
+  "description": "Sulfurimonas denitrificans DSM 1251. This organsim is a sulfur-oxidizing bacterium isolated isolated from estuarine mud in the Netherlands.",
+  "dataset": [
+    "PRJNA13019",
+    null,
+    "13019",
+    "13019",
+    null,
+    "GCA_000012965.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Wadden See",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Wadden See",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008137"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Sulfurimonas denitrificans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sulfurimonas denitrificans",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=326298"
+        }
+      ]
+    }
+  ]
+}

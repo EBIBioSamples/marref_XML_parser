@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598391",
+    "MMP02598391"
+  ],
+  "name": "Shewanella woodyi ATCC 51908",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598391",
+  "description": "Shewanella woodyi ATCC 51908.This strain is being sequenced for comparative genomics.",
+  "dataset": [
+    "PRJNA17455",
+    null,
+    "17455",
+    "17455",
+    null,
+    "GCA_000019525.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Alboran Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alboran Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002458"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Shewanella woodyi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shewanella woodyi",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=392500"
+        }
+      ]
+    }
+  ]
+}

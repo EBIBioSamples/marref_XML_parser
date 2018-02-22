@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03658145",
+    "MMP03658145"
+  ],
+  "name": "Altererythrobacter atlanticus strain 26DY36",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03658145",
+  "description": "The complete genome of this species. It contains one chromosome and one plasmid.",
+  "dataset": [
+    "PRJNA282882",
+    null,
+    "282882",
+    "282882",
+    null,
+    "GCF_001008165.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mid-Atlantic Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mid-Atlantic Ridge",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002439"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Altererythrobacter atlanticus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Altererythrobacter atlanticus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1267766"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05826283",
+    "MMP05826283"
+  ],
+  "name": "Moorea producens PAL-8-15-08-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05826283",
+  "description": "Short and long reads (Illumina MiSeq and PacBio RS II) were assembled togetherusing standard settings of SPAdes 3.5, and yielded 47 linear contigs larger than 500 bp along with one circular contig of 35.5 kb (a cyanobacterial plasmid candidate). In order to resolve these regions and close the genome, we proceeded to long reads scaffolding by the software SSPACE-LongReads, standard settings. Fourteen of the contigs assembled into a single circular scaffold of 9.67 Mb, and gaps were closed using again the long reads. The minimum coverage was 98-fold, and together with the 35.5 kb circular plasmid, it constitutes the complete M. producens PAL 15AUG08-1 genome, the first complete genome of a filamentous marine tropical cyanobacterium. This cyanobacterium has an impressive 19.89 % of its genome is devoted to the production of secondary metabolites, four times the cyanobacterial average.",
+  "dataset": [
+    "PRJNA345358",
+    null,
+    "345358",
+    "345358",
+    null,
+    "GCF_001767235.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Palmyra Atoll",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Palmyra Atoll",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007115"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Moorea producens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Moorea producens",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1458985"
+        }
+      ]
+    }
+  ]
+}

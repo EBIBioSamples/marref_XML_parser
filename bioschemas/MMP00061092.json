@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00061092",
+    "MMP00061092"
+  ],
+  "name": "Aeropyrum pernix K1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061092",
+  "description": "Aeropyrum pernix strain K1. This organism; which was the first strictly aerobic hyperthermophilic archaeon sequenced; was isolated from a coastal solfataric (volcanic hydrothermal area that gives off sulfuric gases) thermal vent at Kodakara-Jima Island; Japan in 1993.",
+  "dataset": [
+    "PRJNA211",
+    null,
+    "211",
+    "211",
+    null,
+    "GCA_000011125.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kodakara-jima",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kodakara-jima",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008467"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Aeropyrum pernix",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Aeropyrum pernix",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=272557"
+        }
+      ]
+    }
+  ]
+}

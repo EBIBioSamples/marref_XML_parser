@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603857",
+    "MMP02603857"
+  ],
+  "name": "Glaciecola nitratireducens FR1064",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603857",
+  "description": "-",
+  "dataset": [
+    "PRJNA73073",
+    null,
+    "73073",
+    "73073",
+    null,
+    "GCA_000226565.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jeju-do",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jeju-do",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002803"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Glaciecola nitratireducens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Glaciecola nitratireducens",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1085623"
+        }
+      ]
+    }
+  ]
+}

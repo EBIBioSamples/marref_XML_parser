@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05832834",
+    "MMP05832834"
+  ],
+  "name": "Salmonella enterica subsp. enterica serovar Typhimurium",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05832834",
+  "description": "To carry out genome sequencing of Salmonella isolates from wild birds",
+  "dataset": [
+    "PRJNA344760",
+    null,
+    "344760",
+    "344760",
+    null,
+    "GCA_001886995.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Canada",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Canada",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002560"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Salmonella enterica subsp. enterica serovar Typhimurium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Salmonella enterica subsp. enterica serovar Typhimurium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=90371"
+        }
+      ]
+    }
+  ]
+}

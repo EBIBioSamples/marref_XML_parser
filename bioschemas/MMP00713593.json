@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00713593",
+    "MMP00713593"
+  ],
+  "name": "Marinomonas mediterranea MMB-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713593",
+  "description": "Marinomonas mediterranea MMB-1.This strain will be used for comparative genome analysis.",
+  "dataset": [
+    "PRJNA51765",
+    null,
+    "51765",
+    "51765",
+    null,
+    "GCA_000192865.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Murcia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Murcia",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007352"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Marinomonas mediterranea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Marinomonas mediterranea",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=717774"
+        }
+      ]
+    }
+  ]
+}

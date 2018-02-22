@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603960",
+    "MMP02603960.1"
+  ],
+  "name": "Vibrio campbellii (harveyi) ATCC BAA-1116",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603960.1",
+  "description": "Vibrio harveyi strain BAA-1116. This organism will be sequenced for comparative genome analysis.",
+  "dataset": [
+    "PRJNA19857",
+    null,
+    "19857",
+    "19857",
+    null,
+    "GCF_000017705.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio campbellii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio campbellii",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=338187"
+        }
+      ]
+    }
+  ]
+}

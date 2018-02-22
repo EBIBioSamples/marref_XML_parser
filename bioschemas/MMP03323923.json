@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03323923",
+    "MMP03323923"
+  ],
+  "name": "Vibrio nigripulchritudo str. SFn1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03323923",
+  "description": "V. nigripulchritudo is responsible for mass mortalities of shrimp in New Caledonia. The analysis of the genome sequence of one strain; SFn1 (realized by the Genoscope); genetic approaches and molecular epidemiology led us to suggest that plasmids and chromosomal elements played a role in the emergence of a pathogenic lineage. Through genome sequencing of 15 additional strains this project will yield insight into the key features underlying virulence; and will investigate whether horizontal gene acquisitions have driven the differentiation of virulent lineages.",
+  "dataset": [
+    "PRJEB625",
+    null,
+    "625",
+    "625",
+    null,
+    "GCA_000801275.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "New Caledonia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "New Caledonia",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00005206"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio nigripulchritudo",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio nigripulchritudo",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28173"
+        }
+      ]
+    }
+  ]
+}

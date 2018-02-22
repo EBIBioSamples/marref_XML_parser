@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03222822",
+    "MMP03222822"
+  ],
+  "name": "Clostridium botulinum 202F",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03222822",
+  "description": "Complete genome sequence of Clostridium botulinum 202F",
+  "dataset": [
+    "PRJNA225787",
+    null,
+    "225787",
+    "225787",
+    null,
+    "GCA_000789355.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pacific Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Clostridium botulinum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Clostridium botulinum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1415774"
+        }
+      ]
+    }
+  ]
+}

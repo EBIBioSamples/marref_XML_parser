@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00713610",
+    "MMP00713610"
+  ],
+  "name": "Glaciecola sp. 4H-3-7+YE-5",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713610",
+  "description": "This strain will be used for comparative analysis.",
+  "dataset": [
+    "PRJNA62887",
+    null,
+    "62887",
+    "62887",
+    null,
+    "GCA_000212335.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Suruga Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Suruga Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00146767"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Glaciecola",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Glaciecola",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=983545"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603961",
+    "MMP02603961"
+  ],
+  "name": "Alcanivorax dieselolei B5",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603961",
+  "description": "This strain will provide information on the production and regulation of proteins involved in alkane degadation.",
+  "dataset": [
+    "PRJNA60443",
+    null,
+    "60443",
+    "60443",
+    null,
+    "GCA_000300005.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Bohai Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bohai Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00011800"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Alcanivorax dieselolei",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alcanivorax dieselolei",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=930169"
+        }
+      ]
+    }
+  ]
+}

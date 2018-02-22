@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603208",
+    "MMP02603208"
+  ],
+  "name": "Nanoarchaeum equitans Kin4-M",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603208",
+  "description": "Nanoarchaeum equitans strain Kin4-M. This organism was isolated from a submarine hot vent. Cells are only about 400 nm in diameter.",
+  "dataset": [
+    "PRJNA9599",
+    null,
+    "9599",
+    "9599",
+    null,
+    "GCA_000008085.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Iceland",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Iceland",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000843"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Nanoarchaeum equitans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nanoarchaeum equitans",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=228908"
+        }
+      ]
+    }
+  ]
+}

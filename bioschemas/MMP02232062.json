@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02232062",
+    "MMP02232062"
+  ],
+  "name": "Thiocystis violascens DSM 198",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232062",
+  "description": "One of the purple sulfur bacteria, Thiocystis violascens, formerly known as Chromatium violascens, is a motile, 2.0 um spherical cell first described in 1852. It contains internal photosynthetic membrane systems in which bacteriochlorophyll a and carotenoids are located. Under anoxic conditions, cells are capable of photolithoautotrophic growth with sulfide or sulfur as electron donor, thiosulfate may also be used. During sulfide oxidation, globules of elemental sulfur are transiently stored inside the cells. The final oxidation product is sulfate. In the presence of sulfide and bicarbonate, several simple organic substrates are photoassimilated. Facultatively chemoautotrophic or mixotrophic under micro-oxic to oxic conditions. Mesophilic bacteria with good growth at 25-35 degrees Celsius, pH 6.5 - 7.6. Principally a freshwater bacteria, although strain DSM 198 was isolated from brackish water. Strain DSM 198 is the type strain (adapted from PMID 9828415).",
+  "dataset": [
+    "PRJNA60641",
+    null,
+    "60641",
+    "60641",
+    null,
+    "GCA_000227745.3",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thiocystis violascens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thiocystis violascens",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=765911"
+        }
+      ]
+    }
+  ]
+}

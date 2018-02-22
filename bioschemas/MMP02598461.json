@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598461",
+    "MMP02598461"
+  ],
+  "name": "Chloroherpeton thalassium ATCC 35110",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598461",
+  "description": "Chloroherpeton thalassium ATCC 35110. Chloroherpeton thalassium ATCC 35110 is the type strain and will be used for comparative genomics with other green sulfur bacteria.",
+  "dataset": [
+    "PRJNA29215",
+    null,
+    "29215",
+    "29215",
+    null,
+    "GCA_000020525.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Woods Hole",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Woods Hole",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00216609"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Chloroherpeton thalassium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Chloroherpeton thalassium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=517418"
+        }
+      ]
+    }
+  ]
+}

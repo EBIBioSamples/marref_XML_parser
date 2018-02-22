@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03253153",
+    "MMP03253153"
+  ],
+  "name": "Candidatus Nitrosopumilus sp. NF5",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03253153",
+  "description": "Candidatus Nitrosopumilus adriaticus NF5 was isolated from coastal surface water of the northern Adriatic Sea (approx. 0.5 m depth) off the coast of Piran; Slovenia; in November 2011. They can oxidize ammonia into nitrite and fix inorganic carbon via the 3-hydroxypropionate/4-hydroxybutyrate cycle. env_temp: 13.1-15.5",
+  "dataset": [
+    "PRJNA269341",
+    null,
+    "269341",
+    "269341",
+    null,
+    "GCF_000956175.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Adriatic Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Adriatic Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007625"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Candidatus Nitrosopumilus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Candidatus Nitrosopumilus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1580092"
+        }
+      ]
+    }
+  ]
+}

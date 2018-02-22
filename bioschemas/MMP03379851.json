@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03379851",
+    "MMP03379851"
+  ],
+  "name": "Siansivirga zeaxanthinifaciens CC-SAMT-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03379851",
+  "description": "BCRC 80315T and JCM 17682T",
+  "dataset": [
+    "PRJNA236449",
+    null,
+    "236449",
+    "236449",
+    null,
+    "GCF_000941055.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Changhua County",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Changhua County",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00010901"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Siansivirga zeaxanthinifaciens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Siansivirga zeaxanthinifaciens",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1454006"
+        }
+      ]
+    }
+  ]
+}

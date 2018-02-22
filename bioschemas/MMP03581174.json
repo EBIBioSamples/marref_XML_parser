@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03581174",
+    "MMP03581174"
+  ],
+  "name": "Sedimenticola sp. SIP-G1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03581174",
+  "description": "The second goal of this project was to elucidate the biochemical pathway in Sedimenticola thiotaurini SIP-G1 for a novel organic source of reduced sulfur for sulfur-oxidation.",
+  "dataset": [
+    "PRJNA282984",
+    null,
+    "282984",
+    "282984",
+    null,
+    "GCF_001007875.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Falmouth",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Falmouth",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00006331"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Sedimenticola thiotaurini",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sedimenticola thiotaurini",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1543721"
+        }
+      ]
+    }
+  ]
+}

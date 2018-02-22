@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03421018",
+    "MMP03421018"
+  ],
+  "name": "Yersinia ruckeri strain Big Creek 74",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03421018",
+  "description": "Sequence of fish the second serological variety of salmonid fish pathogen of enteric redmouth disease",
+  "dataset": [
+    "PRJNA278621",
+    null,
+    "278621",
+    "278621",
+    null,
+    "GCF_000964565.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "State of Oregon",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "State of Oregon",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002515"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Yersinia ruckeri",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Yersinia ruckeri",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29486"
+        }
+      ]
+    }
+  ]
+}

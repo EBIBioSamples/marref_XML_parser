@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00061055",
+    "MMP00061055"
+  ],
+  "name": "Endosymbiont of unidentified scaly snail isolate Monju",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00061055",
+  "description": "Samples used in this study were obtained by means of DSV Shinkai 6500 at the Kairei hydrothermal field (Van Dover et al.; 2001) in the Central Indian Ridge (25\u00b0 19.23\u2032S; 70\u00b0 02.42\u2032E). Scaly-foot snail; tentatively named \u201a\u00c4\u00f2Crysomallon squamiferum\u201a\u00c4\u00f4; was for the first in 2001. The snail lives a sedentary life at the base of black-smoker chimneys in the Kairei hydrothermal field in the Indian Ocean. The sclerites cover the sides of the foot in a roof-tile fashion. The gastropod houses densely a member of the order Thiotrichales within the cells of its greatly enlarged esophageal gland. Little is known about physiological characteristics and ecological significance of endosymbionts. We therefore performed the genome analysis on the symbiont of scaly-foot snail. The complete genome sequence and comparative genome analysis among Thiotrichales symbionts will provide important insights into their evolution; physiological functions; and interactions with their host animals",
+  "dataset": [
+    "PRJDB691",
+    null,
+    "691",
+    "691",
+    null,
+    "GCA_000801295.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kairei hydrothermal vent field",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kairei hydrothermal vent field",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002488"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Endosymbiont of unidentified scaly snail isolate Monju",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Endosymbiont of unidentified scaly snail isolate Monju",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1248727"
+        }
+      ]
+    }
+  ]
+}

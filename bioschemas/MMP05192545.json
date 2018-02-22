@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05192545",
+    "MMP05192545"
+  ],
+  "name": "Maribacter sp. MAR_2009_60",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05192545",
+  "description": "Maribacter sp. MAR_2009_60",
+  "dataset": [
+    "PRJEB16422",
+    null,
+    "16422",
+    "16422",
+    null,
+    "GCA_900105105.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Maribacter sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Maribacter sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1250153"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598520",
+    "MMP02598520"
+  ],
+  "name": "Methanocaldococcus sp. FS406-22",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598520",
+  "description": "Methanocaldococcus sp. FS406-22. Methanocaldococcus sp. FS406-22 was isolated from hydrothermal vent fluid from an undersea volcano in the northeast Pacific Ocean. This organism is able to fix nitrogen at temperatures of 92oC and the genome sequence will provide information on the production and regulation of proteins involved in high temperature nitrogen fixation.",
+  "dataset": [
+    "PRJNA37943",
+    null,
+    "37943",
+    "37943",
+    null,
+    "GCA_000025525.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Juan de Fuca Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Juan de Fuca Ridge",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002438"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanocaldococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanocaldococcus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=644281"
+        }
+      ]
+    }
+  ]
+}

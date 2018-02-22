@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03580996",
+    "MMP03580996"
+  ],
+  "name": "Campylobacter lari strain Slaughter Beach",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03580996",
+  "description": "Campylobacter lari was isolated in the Delaware Bay off the shore of Slaughter Beach. The isolate was confirmed species by 16S ribosomal gene sequencing and also found to carry genes for urease.",
+  "dataset": [
+    "PRJNA239573",
+    null,
+    "239573",
+    "239573",
+    null,
+    "GCF_001017575.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Town of Slaughter Beach",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Town of Slaughter Beach",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00220024"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Campylobacter lari",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Campylobacter lari",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=201"
+        }
+      ]
+    }
+  ]
+}

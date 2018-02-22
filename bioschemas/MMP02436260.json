@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02436260",
+    "MMP02436260"
+  ],
+  "name": "Synechococcus sp. WH 8109",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02436260",
+  "description": "Synechococcus sp. WH 8109. Synechococcus sp. WH 8109 was isolated from the Sargasso Sea. This strain is a member of marine cluster A; Clade II (Rocap et al. 2002; Fuller et al. 2003). Clade II Synechococcus types are an important component of the phytoplankton; being commonly detected in environmental clone libraries (Ahlgren and Rocap 2007; Penno et al. 2006) and being the dominant Synechococcus group in many oceanic regimes (Fuller et al. 2006; Fuller et al. 2005; Zwirglmaier et al. 2007).",
+  "dataset": [
+    "PRJNA37911",
+    null,
+    "37911",
+    "37911",
+    null,
+    "GCA_000161795.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sargasso Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sargasso Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002454"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Synechococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Synechococcus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=166314"
+        }
+      ]
+    }
+  ]
+}

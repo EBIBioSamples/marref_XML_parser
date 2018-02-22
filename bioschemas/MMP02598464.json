@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598464",
+    "MMP02598464"
+  ],
+  "name": "Denitrovibrio acetiphilus DSM 12809",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598464",
+  "description": "Denitrovibrio acetiphilus DSM 12809 (N2460) is the type strain and will be used for comparative analysis",
+  "dataset": [
+    "PRJNA29431",
+    null,
+    "29431",
+    "29431",
+    null,
+    "GCA_000025725.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Bergen",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bergen",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003218"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Denitrovibrio acetiphilus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Denitrovibrio acetiphilus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=522772"
+        }
+      ]
+    }
+  ]
+}

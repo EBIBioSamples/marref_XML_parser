@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00002700",
+    "MMP00002700"
+  ],
+  "name": "Rhodothermus marinus DSM 4252",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00002700",
+  "description": "Rhodothermus marinus DSM 4252. Rhodothermus marinus DSM 4252 was isolated from a shallow marine hot spring off the coast of Iceland. This organism produces a number of thermostable enzymes; such as cellulase and xylanase; which may be important in industrial processes. Rhodothermus marinus DSM 4252 is the type strain and this genome will provide information on the production and regulation of thermostable enzymes. env_temp: 75-95",
+  "dataset": [
+    "PRJNA29281",
+    null,
+    "29281",
+    "29281",
+    null,
+    "GCA_000024845.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Isafjardardjup Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Isafjardardjup Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00145755"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Rhodothermus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Rhodothermus marinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=518766"
+        }
+      ]
+    }
+  ]
+}

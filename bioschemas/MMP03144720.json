@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03144720",
+    "MMP03144720"
+  ],
+  "name": "Yersinia aldovae 670-83",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03144720",
+  "description": "Genome sequencing of Yersinia aldovae 670-83",
+  "dataset": [
+    "PRJNA236105",
+    null,
+    "236105",
+    "236105",
+    null,
+    "GCA_000834395.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kingdom of Norway",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kingdom of Norway",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002699"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Yersinia aldovae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Yersinia aldovae",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1453495"
+        }
+      ]
+    }
+  ]
+}

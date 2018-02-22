@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02261085",
+    "MMP02261085"
+  ],
+  "name": "Pseudovibrio sp. FO-BEG1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261085",
+  "description": "Isolated with Beggiatoa sp. from a black band diseased coral; is available as an axenic culture; metabolically versatile; facultative oligotroph.",
+  "dataset": [
+    "PRJNA73563",
+    null,
+    "73563",
+    "73563",
+    null,
+    "GCA_000236645.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Florida",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Florida",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00077768"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pseudovibrio denitrificans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pseudovibrio denitrificans",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=911045"
+        }
+      ]
+    }
+  ]
+}

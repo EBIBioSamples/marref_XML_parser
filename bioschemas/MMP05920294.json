@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05920294",
+    "MMP05920294"
+  ],
+  "name": "Marinobacter sp. Hb8",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05920294",
+  "description": "Complete genome sequencing of Marinobacter salinus, thiosulphate and benzene reducing organism.",
+  "dataset": [
+    "PRJNA349097",
+    null,
+    "349097",
+    "349097",
+    null,
+    "GCF_001854125.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gunsan City",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gunsan City",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008641"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Marinobacter salinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Marinobacter salinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1874317"
+        }
+      ]
+    }
+  ]
+}

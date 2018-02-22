@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598503",
+    "MMP02598503"
+  ],
+  "name": "Ferroglobus placidus DSM 10642",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598503",
+  "description": "Ferroglobus placidus DSM 10642. Ferroglobus placidus DSM 10642 is the type strain and will be used for comparative analysis.",
+  "dataset": [
+    "PRJNA33635",
+    null,
+    "33635",
+    "33635",
+    null,
+    "GCA_000025505.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Porto Levante",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Porto Levante",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00187520"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Ferroglobus placidus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Ferroglobus placidus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=589924"
+        }
+      ]
+    }
+  ]
+}

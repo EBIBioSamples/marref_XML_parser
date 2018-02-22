@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04487762",
+    "MMP04487762"
+  ],
+  "name": "Polaribacter sp. Hel1_33_78",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04487762",
+  "description": "Polaribacter sp. Hel1_33_78",
+  "dataset": [
+    "PRJEB16501",
+    null,
+    "16501",
+    "16501",
+    null,
+    "GCA_900106075.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Polaribacter sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Polaribacter sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1336804"
+        }
+      ]
+    }
+  ]
+}

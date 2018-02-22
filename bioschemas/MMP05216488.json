@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05216488",
+    "MMP05216488"
+  ],
+  "name": "Microbacterium sp. LKL04",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05216488",
+  "description": "Microbacterium sp. LKL04",
+  "dataset": [
+    "PRJEB15797",
+    null,
+    "15797",
+    "15797",
+    null,
+    "GCA_900102005.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Arctic Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Arctic Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000323"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Microbacterium sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Microbacterium sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=912630"
+        }
+      ]
+    }
+  ]
+}

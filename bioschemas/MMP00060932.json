@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00060932",
+    "MMP00060932"
+  ],
+  "name": "Rhodococcus erythropolis PR4",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060932",
+  "description": "Rhodococcus erythropolis PR4 (NBRC 100887). Rhodococcus erythropolis PR4 (NBRC 100887) was isolated from Pacific Ocean seawater. It has the enzymes necessary for the degradation of different alkanes; such as pristane. PR4 shows tolerance to hydrocarbons and it is capable of producing several compounds with medical; industrial; and nutritional applications such as beta-carotenes (i.e. astaxanthin) and fatty acid-containing extracellular polysaccharides (i.e. mucoidan). PR4 strain harbors one linear plasmid; pREL1 and two circular plasmids; pREC1 and pREC2; all with sequence similarities to other Rhodococcus plasmids. Plasmid pREL1 harbors metal-resistance and alkane-degradation genes. Plasmid pREC1 encodes for a complete set of beta-oxidation enzymes of fatty acids.",
+  "dataset": [
+    "PRJDA20395",
+    null,
+    "20395",
+    "20395",
+    null,
+    "GCA_000010105.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pacific Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Rhodococcus erythropolis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Rhodococcus erythropolis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=234621"
+        }
+      ]
+    }
+  ]
+}

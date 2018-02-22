@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598304",
+    "MMP02598304"
+  ],
+  "name": "Desulfotomaculum reducens MI-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598304",
+  "description": "Desulfotomaculum reducens strain MI-1. This organism was isolated from heavy metal-contaminated sediment collected at the Mare Island Naval Shipyard on the San Francisco Bay. The genome sequence of this organism will provide information on the mechanism and regulation of heavy metal reduction.",
+  "dataset": [
+    "PRJNA13424",
+    null,
+    "13424",
+    "13424",
+    null,
+    "GCA_000016165.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "San Francisco Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "San Francisco Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002596"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Desulfotomaculum reducens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Desulfotomaculum reducens",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=349161"
+        }
+      ]
+    }
+  ]
+}

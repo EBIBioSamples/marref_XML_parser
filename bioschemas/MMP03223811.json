@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03223811",
+    "MMP03223811"
+  ],
+  "name": "Pyrodictium delaneyi strain Su06",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03223811",
+  "description": "Genome sequencing and analysis of genome of Pyrodictium sp. Su06 isolated from an active hydrothermal chimney on the Sully edifice on the Endeavour Segment of the Juan de Fuca Ridge in the northeastern Pacific Ocean.",
+  "dataset": [
+    "PRJNA268702",
+    null,
+    "268702",
+    "268702",
+    null,
+    "GCF_001412615.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Juan de Fuca Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Juan de Fuca Ridge",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002438"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pyrodictium delaneyi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pyrodictium delaneyi",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1273541"
+        }
+      ]
+    }
+  ]
+}

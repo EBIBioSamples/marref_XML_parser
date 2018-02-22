@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03081521",
+    "MMP03081521"
+  ],
+  "name": "Vibrio parahaemolyticus UCM-V493",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081521",
+  "description": "Genome comparison",
+  "dataset": [
+    "PRJNA229758",
+    null,
+    "229758",
+    "229758",
+    null,
+    "GCA_000568495.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Spain",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Spain",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000591"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio parahaemolyticus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio parahaemolyticus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1429044"
+        }
+      ]
+    }
+  ]
+}

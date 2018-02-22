@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02371861",
+    "MMP02371861"
+  ],
+  "name": "Brucella ceti TE28753-12",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02371861",
+  "description": "Brucella ceti has been reported as the etiological agent of several chronic diseases in cetaceans. B.ceti isolates; even if belonging to the same specie; present distinct genetic traits and host preferences. In 2012; several Stenella coeruleoalba animals have been found dead on Adriatic Sea costs. Post mortem analysis revealed the presence of the B.ceti in their brain tissue. The aim of the study is the deep characterization of the isolates to clarify genetic relationship with already described B.ceti types: porpoise; dolphins and human types; since they display variable virulence and infectivity in hosts; including humans. Host_age: Adult",
+  "dataset": [
+    "PRJNA227567",
+    null,
+    "227567",
+    "227567",
+    null,
+    "GCA_000590815.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Adriatic Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Adriatic Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007625"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Brucella ceti",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Brucella ceti",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1407053"
+        }
+      ]
+    }
+  ]
+}

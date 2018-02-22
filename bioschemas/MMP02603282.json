@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603282",
+    "MMP02603282"
+  ],
+  "name": "Desulfobacterium autotrophicum HRM2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603282",
+  "description": "Desulfobacterium autotrophicum (strain ATCC 43914 / DSM 3382 / HRM2) is a anaerobic sulfate-reducing bacterium isolated from a marine sediment in the Mediterranean sea near Venice, Italy. D. autotrophicum plays an important role in the ecology of marine sediments. It is involved in the anaerobic mineralization of organic matter coming from the water column.",
+  "dataset": [
+    "PRJNA20931",
+    null,
+    "20931",
+    "20931",
+    null,
+    "GCA_000020365.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Venice",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Venice",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008207"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Desulfobacterium autotrophicum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Desulfobacterium autotrophicum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=177437"
+        }
+      ]
+    }
+  ]
+}

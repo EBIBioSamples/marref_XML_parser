@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02900764",
+    "MMP02900764"
+  ],
+  "name": "Flavobacterium psychrophilum v4-33",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02900764",
+  "description": "Bacteriophage resistance mechanisms in the fish pathogen Flavobacterium psychrophilum:",
+  "dataset": [
+    "PRJNA254206",
+    null,
+    "254206",
+    "254206",
+    null,
+    "GCA_000831205.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kingdom of Denmark",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kingdom of Denmark",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002635"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Flavobacterium psychrophilum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Flavobacterium psychrophilum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=96345"
+        }
+      ]
+    }
+  ]
+}

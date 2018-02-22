@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603035",
+    "MMP02603035"
+  ],
+  "name": "Simiduia agarivorans SA1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603035",
+  "description": "Simiduia agarivorans Genome Sequencing",
+  "dataset": [
+    "PRJNA74637",
+    null,
+    "74637",
+    "74637",
+    null,
+    "GCA_000305785.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Municipality of Keelung",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Municipality of Keelung",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00175881"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Simiduia agarivorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Simiduia agarivorans",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1117647"
+        }
+      ]
+    }
+  ]
+}

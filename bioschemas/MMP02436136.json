@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02436136",
+    "MMP02436136"
+  ],
+  "name": "Dokdonia sp. MED134",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02436136",
+  "description": "Dokdonia donghaensis MED134. This marine bacterium was collected in the Mediterranean Sea at a depth of 0.5 meter. It was isolated by plating on solid media.",
+  "dataset": [
+    "PRJNA13544",
+    null,
+    "13544",
+    "13544",
+    null,
+    "GCA_000152925.3",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Bay of Blanes",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bay of Blanes",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002715"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Dokdonia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Dokdonia",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=313590"
+        }
+      ]
+    }
+  ]
+}

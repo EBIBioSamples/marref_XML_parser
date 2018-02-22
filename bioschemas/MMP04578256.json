@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04578256",
+    "MMP04578256"
+  ],
+  "name": "Serinicoccus sp. JLT9",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04578256",
+  "description": "Genome sequences of Serinicoccus guishaninsula JLT9 isolated from shallow-sea hydrothermal systems in Kueishantao Island",
+  "dataset": [
+    "PRJNA316485",
+    null,
+    "316485",
+    "316485",
+    null,
+    "GCF_001685415.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Taiwan Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Taiwan Island",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00045694"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Serinicoccus sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Serinicoccus sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1758689"
+        }
+      ]
+    }
+  ]
+}

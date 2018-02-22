@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598452",
+    "MMP02598452"
+  ],
+  "name": "Magnetococcus marinus MC-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598452",
+  "description": "Magnetococcus sp. MC-1. This magnetotactic bacterium was isolated from water from the Pettaquamscutt Estuary; in Rhode Island; USA. Migration is towards the anoxic/oxic interface which in the case of Magnetococcus sp. MC-1 is in a polar direction. The genome sequence of this organism will provide information on the production and regulation of the proteins involved in the magnetosome.",
+  "dataset": [
+    "PRJNA262",
+    null,
+    "262",
+    "262",
+    null,
+    "GCA_000014865.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pettaquamscutt Estuary",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pettaquamscutt Estuary",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002532"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Magnetococcus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Magnetococcus marinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=156889"
+        }
+      ]
+    }
+  ]
+}

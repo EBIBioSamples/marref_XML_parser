@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04488553",
+    "MMP04488553"
+  ],
+  "name": "Gramella sp. MAR_2010_147",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04488553",
+  "description": "Gramella sp. MAR_2010_147",
+  "dataset": [
+    "PRJEB16428",
+    null,
+    "16428",
+    "16428",
+    null,
+    "GCA_900105135.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Gramella sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gramella sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1250205"
+        }
+      ]
+    }
+  ]
+}

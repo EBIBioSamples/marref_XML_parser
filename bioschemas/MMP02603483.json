@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603483",
+    "MMP02603483"
+  ],
+  "name": "Hahella chejuensis KCTC 2396",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603483",
+  "description": "Hahella chejuensis KCTC 2396. Hahella chejuensis KCTC 2396 will be used for comparative genomics.",
+  "dataset": [
+    "PRJNA16064",
+    null,
+    "16064",
+    "16064",
+    null,
+    "GCA_000012985.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mara-do",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mara-do",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00046837"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Hahella chejuensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hahella chejuensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=349521"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603917",
+    "MMP02603917"
+  ],
+  "name": "Prochlorococcus marinus str. MIT 9303",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603917",
+  "description": "Prochlorococcus marinus strain MIT 9303. This strain was collected from the Sargasso Sea at a depth of 100 m and was isolated by filter fractionation. It can grow only in a narrow range of light intensities. This strain belongs to the 'low light-adapted' ecotype; clade IV; and has a high Chl b/a2 ratio.",
+  "dataset": [
+    "PRJNA13496",
+    null,
+    "13496",
+    "13496",
+    null,
+    "GCA_000015705.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sargasso Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sargasso Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002454"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus marinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=59922"
+        }
+      ]
+    }
+  ]
+}

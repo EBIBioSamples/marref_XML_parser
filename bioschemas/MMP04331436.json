@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04331436",
+    "MMP04331436"
+  ],
+  "name": "Planococcus kocurii strain ATCC 43650",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04331436",
+  "description": "Planococcus kocurii type strain genome sequencing and assembly",
+  "dataset": [
+    "PRJNA305663",
+    null,
+    "305663",
+    "305663",
+    null,
+    "GCF_001465835.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Planococcus kocurii strain",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Planococcus kocurii strain",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1374"
+        }
+      ]
+    }
+  ]
+}

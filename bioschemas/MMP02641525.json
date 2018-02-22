@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02641525",
+    "MMP02641525"
+  ],
+  "name": "Francisella noatunensis subsp. orientalis LADL--07-285A",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02641525",
+  "description": "Genome sequencing of the emerging fish pathogen Francisella asiatica isolated from tilapia in Costa Rica. Emerging problem in fish culture worldwide; including the US; Costa Rica; Latin America; Hawaii; Taiwan; Norway; Chili; and Japan.",
+  "dataset": [
+    "PRJNA210898",
+    null,
+    "210898",
+    "210898",
+    null,
+    "GCA_000505725.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Costa Rica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Costa Rica",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002901"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Francisella noatunensis subsp. orientalis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Francisella noatunensis subsp. orientalis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1356861"
+        }
+      ]
+    }
+  ]
+}

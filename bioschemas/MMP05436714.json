@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05436714",
+    "MMP05436714"
+  ],
+  "name": "Streptomyces pactum strain KLBMP 5084",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05436714",
+  "description": "Genome sequencing project for genomic taxonomy and phylogenomics of bacteria and their functional gene analysis",
+  "dataset": [
+    "PRJNA331053",
+    null,
+    "331053",
+    "331053",
+    null,
+    "GCF_001767375.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jiangsu Province",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jiangsu Province",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007353"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Streptomyces pactum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Streptomyces pactum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=68249"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3865288",
+    "MMP3865288"
+  ],
+  "name": "Vibrio anguillarum NB10",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3865288",
+  "description": "Two sequencing teqniques were used: 454- and PacBio. Source: Vibrio anguillarum; strain NB10 (serovar 01); isolated from Rainbow trout in the Gulf of Bothnia outside the Norrby Laboratory; near the city of Boden; Sweden (1990): ://A1990EE94100038",
+  "dataset": [
+    "PRJEB5701",
+    null,
+    "5701",
+    "5701",
+    null,
+    "GCA_000786425.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gulf of Bothnia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gulf of Bothnia",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002288"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio anguillarum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio anguillarum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=55601"
+        }
+      ]
+    }
+  ]
+}

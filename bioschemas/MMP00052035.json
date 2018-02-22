@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00052035",
+    "MMP00052035"
+  ],
+  "name": "Formosa haliotis strain LMG 28520",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00052035",
+  "description": "Formosa haliotis strain MA1 is an algae degrading bacterium isolated from the gut of abalone. We report the draft genome of a bacterium and pointed out possible important features related to alginate assimilation and evolutionary aspects.",
+  "dataset": [
+    "PRJDB4855",
+    null,
+    "4855",
+    "4855",
+    null,
+    "GCF_001685485.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mie Prefecture",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mie Prefecture",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00006965"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Formosa haliotis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Formosa haliotis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1555194"
+        }
+      ]
+    }
+  ]
+}

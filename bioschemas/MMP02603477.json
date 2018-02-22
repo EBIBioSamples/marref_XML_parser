@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603477",
+    "MMP02603477"
+  ],
+  "name": "Pyrococcus sp. NA2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603477",
+  "description": "Pyrococcus sp. strain NA2; isolated from a deep-sea hydrothermal vent sample; is a novel marine hyperthermophilic archaeon that grows optimally at 93\u00b0C.",
+  "dataset": [
+    "PRJNA65431",
+    null,
+    "65431",
+    "65431",
+    null,
+    "GCA_000211475.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "PACMANUS Hydrothermal Vent Field",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "PACMANUS Hydrothermal Vent Field",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00013771"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pyrococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pyrococcus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=342949"
+        }
+      ]
+    }
+  ]
+}

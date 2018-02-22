@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598390",
+    "MMP02598390"
+  ],
+  "name": "Staphylothermus marinus F1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598390",
+  "description": "Staphylothermus marinus F1. Staphylothermus marinus F1 is being sequenced as part of a comparative genomic study of hyperthermophilic Archaea.",
+  "dataset": [
+    "PRJNA17449",
+    null,
+    "17449",
+    "17449",
+    null,
+    "GCA_000015945.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Vulcano",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vulcano",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002689"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Staphylothermus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Staphylothermus marinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=399550"
+        }
+      ]
+    }
+  ]
+}

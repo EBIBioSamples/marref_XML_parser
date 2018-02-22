@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598272",
+    "MMP02598272"
+  ],
+  "name": "Chlorobium phaeobacteroides BS1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598272",
+  "description": "Chlorobium phaeobacteroides strain BS1.This strain will be used for comparative genomics.",
+  "dataset": [
+    "PRJNA12608",
+    null,
+    "12608",
+    "12608",
+    null,
+    "GCA_000020545.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Black Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Black Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008171"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Chlorobium phaeobacteroides",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Chlorobium phaeobacteroides",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=331678"
+        }
+      ]
+    }
+  ]
+}

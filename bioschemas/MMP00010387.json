@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00010387",
+    "MMP00010387"
+  ],
+  "name": "alpha proteobacterium HIMB59",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00010387",
+  "description": "Alpha proteobacterium HIMB59. Alpha proteobacterium HIMB59 was collected from Kaneohe Bay; Hawaii. This organism is related to the SAR11 bacterioplankton clade.",
+  "dataset": [
+    "PRJNA46519",
+    null,
+    "46519",
+    "46519",
+    null,
+    "GCA_000299115.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kane'ohe Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kane'ohe Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00055951"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "alpha proteobacterium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "alpha proteobacterium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=744985"
+        }
+      ]
+    }
+  ]
+}

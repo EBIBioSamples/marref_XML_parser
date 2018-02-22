@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05216535",
+    "MMP05216535"
+  ],
+  "name": "Pseudomonas xanthomarina strain LMG 23572",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05216535",
+  "description": "Pseudomonas xanthomarina LMG 23572",
+  "dataset": [
+    "PRJEB15821",
+    null,
+    "15821",
+    "15821",
+    null,
+    "GCA_900108535.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Troitsa Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Troitsa Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007660"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pseudomonas xanthomarina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pseudomonas xanthomarina",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=271420"
+        }
+      ]
+    }
+  ]
+}

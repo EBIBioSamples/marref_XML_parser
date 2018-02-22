@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02604041",
+    "MMP02604041"
+  ],
+  "name": "Hyphomonas neptunium ATCC 15444",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604041",
+  "description": "Hyphomonas neptunium strain ATCC 15444. Strain ATCC 15444 is the type strain of the species.",
+  "dataset": [
+    "PRJNA15721",
+    null,
+    "15721",
+    "15721",
+    null,
+    "GCA_000013025.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Barcelona",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Barcelona",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00115857"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Hyphomonas neptunium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hyphomonas neptunium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=228405"
+        }
+      ]
+    }
+  ]
+}

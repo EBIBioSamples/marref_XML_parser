@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3138215",
+    "MMP3138215"
+  ],
+  "name": "Methanococcus maripaludis S2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138215",
+  "description": "Methanococcus maripaludis strain S2. This strain was first isolated from salt marsh sediment near Pawley's Island; South Carolina and will be used for comparative analysis.",
+  "dataset": [
+    "PRJNA10632",
+    null,
+    "10632",
+    "10632",
+    null,
+    "GCA_000011585.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pawleys Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pawleys Island",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002583"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanococcus maripaludis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanococcus maripaludis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=267377"
+        }
+      ]
+    }
+  ]
+}

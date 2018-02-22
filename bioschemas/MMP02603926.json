@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603926",
+    "MMP02603926"
+  ],
+  "name": "Tistrella mobilis KA081020-065",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603926",
+  "description": "To study the possible biosynthesis pathway of secondary metabolites produced by Tistrella mobilis.",
+  "dataset": [
+    "PRJNA76349",
+    null,
+    "76349",
+    "76349",
+    null,
+    "GCA_000264455.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Red Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Red Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002456"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Tistrella mobilis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Tistrella mobilis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1110502"
+        }
+      ]
+    }
+  ]
+}

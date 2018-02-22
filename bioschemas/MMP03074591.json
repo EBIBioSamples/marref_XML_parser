@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03074591",
+    "MMP03074591"
+  ],
+  "name": "Methanosarcina sp. MTP4",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03074591",
+  "description": "Complete genome sequence of Methanosarcina sp. MTP4",
+  "dataset": [
+    "PRJNA230955",
+    null,
+    "230955",
+    "230955",
+    null,
+    "GCF_000970045.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Bordeaux",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bordeaux",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00012710"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanosarcina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanosarcina",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1434100"
+        }
+      ]
+    }
+  ]
+}

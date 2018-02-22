@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02996501",
+    "MMP02996501"
+  ],
+  "name": "Corynebacterium stationis strain 622=DSM 20302",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02996501",
+  "description": "Complete genome sequence of Corynebacterium stationis 622(T)(=DSM 20302(T)), isolated from seawater",
+  "dataset": [
+    "PRJNA242207",
+    null,
+    "242207",
+    "242207",
+    null,
+    "GCF_001941345.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Corynebacterium stationis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Corynebacterium stationis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1705"
+        }
+      ]
+    }
+  ]
+}

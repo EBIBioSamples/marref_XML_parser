@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02604045",
+    "MMP02604045"
+  ],
+  "name": "Salinibacter ruber DSM 13855",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604045",
+  "description": "Salinibacter ruber DSM 13855. The type strain for Salinibacter ruber is strain M31 (also named DSM 13855 or CECT 5946).",
+  "dataset": [
+    "PRJNA16159",
+    null,
+    "16159",
+    "16159",
+    null,
+    "GCA_000013045.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Isla de Mallorca",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Isla de Mallorca",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00005434"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Salinibacter ruber",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Salinibacter ruber",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=309807"
+        }
+      ]
+    }
+  ]
+}

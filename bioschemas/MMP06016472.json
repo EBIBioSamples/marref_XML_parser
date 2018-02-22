@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN06016472",
+    "MMP06016472"
+  ],
+  "name": "Bacillus safensis strain KCTC 12796BP",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP06016472",
+  "description": "Strain isolated from the marine sponge in the seawater in front of Seongsan-ri of Jeju Island, Soputh Korea",
+  "dataset": [
+    "PRJNA353573",
+    null,
+    "353573",
+    "353573",
+    null,
+    "GCF_001895885.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jeju-do",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jeju-do",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002803"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Bacillus safensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bacillus safensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=561879"
+        }
+      ]
+    }
+  ]
+}

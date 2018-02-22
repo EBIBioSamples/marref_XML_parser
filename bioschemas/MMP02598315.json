@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598315",
+    "MMP02598315"
+  ],
+  "name": "Shewanella sp. W3-18-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598315",
+  "description": "Shewanella sp. W3-18-1. This strain was isolated from Pacific Ocean marine sediments at a depth of 630 m. Shewanella are facultatively anaerobic, Gram-negative bacteria, motile by polar flagella, rod-like, and generally associated with aquatic or marine environments. . They are capable of using a variety of compounds as electron acceptors, including oxygen, iron, manganese, uranium, nitrate, nitrite, fumarate, to name but a few. This ability makes Shewanella important for bioremediation of contaminated metals and radioactive wastes. The genus Shewanella comprises 36 recognized and hundreds of uncharacterized cultivable species.",
+  "dataset": [
+    "PRJNA13902",
+    null,
+    "13902",
+    "13902",
+    null,
+    "GCA_000015185.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pacific Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Shewanella sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shewanella sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=351745"
+        }
+      ]
+    }
+  ]
+}

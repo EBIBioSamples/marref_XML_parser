@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00000040",
+    "MMP00000040"
+  ],
+  "name": "Methanococcus voltae A3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00000040",
+  "description": "Methanococcus voltae strain A3 (ATCC BAA-1334). Isolated from a salt marsh. This organism will be used for comparative genomics with other methanogens.",
+  "dataset": [
+    "PRJNA20131",
+    null,
+    "20131",
+    "20131",
+    null,
+    "GCA_000006175.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "United States of America",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "United States of America",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002459"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanococcus voltae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanococcus voltae",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=456320"
+        }
+      ]
+    }
+  ]
+}

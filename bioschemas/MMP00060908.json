@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00060908",
+    "MMP00060908"
+  ],
+  "name": "Candidatus Vesicomyosocius okutanii HA",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060908",
+  "description": "Calyptogena okutanii thioautotrophic gill symbiont strain HA.This strain was collected off Hatsushima island in Sagami Bay; Japan.",
+  "dataset": [
+    "PRJDA18267",
+    null,
+    "18267",
+    "18267",
+    null,
+    "GCA_000010405.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sagami Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sagami Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002780"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Candidatus Vesicomyosocius okutanii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Candidatus Vesicomyosocius okutanii",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=412965"
+        }
+      ]
+    }
+  ]
+}

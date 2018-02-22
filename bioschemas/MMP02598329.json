@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598329",
+    "MMP02598329"
+  ],
+  "name": "Nitrosococcus oceani ATCC 19707",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598329",
+  "description": "Nitrosococcus oceani strain ATCC 19707. This strain (ATCC 19707; C-107) is the type strain for the species.",
+  "dataset": [
+    "PRJNA13993",
+    null,
+    "13993",
+    "13993",
+    null,
+    "GCA_000012805.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Atlantic Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Atlantic Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000344"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Nitrosococcus oceani",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nitrosococcus oceani",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=323261"
+        }
+      ]
+    }
+  ]
+}

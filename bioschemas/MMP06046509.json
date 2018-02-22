@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN06046509",
+    "MMP06046509"
+  ],
+  "name": "Donghicola sp. JLT3646",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP06046509",
+  "description": "Genome sequences of Donghicola sp. JLT3646 isolated from shallow-sea hydrothermal systems in Kueishan Island",
+  "dataset": [
+    "PRJNA354476",
+    null,
+    "354476",
+    "354476",
+    null,
+    "GCF_001908835.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Taiwan Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Taiwan Island",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00045694"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Donghicola sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Donghicola sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1920883"
+        }
+      ]
+    }
+  ]
+}

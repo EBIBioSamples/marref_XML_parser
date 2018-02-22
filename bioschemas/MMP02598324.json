@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598324",
+    "MMP02598324"
+  ],
+  "name": "Ignicoccus hospitalis KIN4/I",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598324",
+  "description": "Ignicoccus hospitalis Kin4/I. Ignicoccus hospitalis Kin4/I was isolated from gravel obtained from the shallow marine hydrothermal system of the Kolbeinsey Ridge; north of Iceland and will be used for comparative analysis with other thermophiles",
+  "dataset": [
+    "PRJNA13914",
+    null,
+    "13914",
+    "13914",
+    null,
+    "GCA_000017945.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kolbeinsey Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kolbeinsey Ridge",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002489"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Ignicoccus hospitalis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Ignicoccus hospitalis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=453591"
+        }
+      ]
+    }
+  ]
+}

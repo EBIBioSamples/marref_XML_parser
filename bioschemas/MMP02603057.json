@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603057",
+    "MMP02603057"
+  ],
+  "name": "Corynebacterium maris DSM 45190",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603057",
+  "description": "Complete genome sequence of Corynebacterium maris DSM 45190(T); isolated from coral mucus.",
+  "dataset": [
+    "PRJNA172964",
+    null,
+    "172964",
+    "172964",
+    null,
+    "GCA_000442645.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gulf of Aqaba",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gulf of Aqaba",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007862"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Corynebacterium maris",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Corynebacterium maris",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1224163"
+        }
+      ]
+    }
+  ]
+}

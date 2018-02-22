@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05725820",
+    "MMP05725820"
+  ],
+  "name": "Thalassotalea sp. LPB0090",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05725820",
+  "description": "Thalassotalea crassostreae Genome sequencing and assembly",
+  "dataset": [
+    "PRJNA341534",
+    null,
+    "341534",
+    "341534",
+    null,
+    "GCF_001831495.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thalassotalea sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thalassotalea sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1763536"
+        }
+      ]
+    }
+  ]
+}

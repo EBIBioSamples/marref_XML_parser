@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04320555",
+    "MMP04320555"
+  ],
+  "name": "Vibrio alginolyticus strain ATCC 33787",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04320555",
+  "description": "Complete genome sequence of Vibrio alginolyticus ATCC 33787",
+  "dataset": [
+    "PRJNA305220",
+    null,
+    "305220",
+    "305220",
+    null,
+    "GCA_001469735.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Oahu",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Oahu",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003187"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio alginolyticus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio alginolyticus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=663"
+        }
+      ]
+    }
+  ]
+}

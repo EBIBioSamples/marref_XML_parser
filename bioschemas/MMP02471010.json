@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02471010",
+    "MMP02471010"
+  ],
+  "name": "Candidatus Nitrosoarchaeum limnia SFB1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02471010",
+  "description": "Low-salinity-type ammonium oxidizing archaeon of significance to global bio-geochemical nitrogen cycling",
+  "dataset": [
+    "PRJNA52465",
+    null,
+    "52465",
+    "52465",
+    null,
+    "GCF_000204585.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "San Francisco Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "San Francisco Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002596"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Candidatus Nitrosoarchaeum limnia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Candidatus Nitrosoarchaeum limnia",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=886738"
+        }
+      ]
+    }
+  ]
+}

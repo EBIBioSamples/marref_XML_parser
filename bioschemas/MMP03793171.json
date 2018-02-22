@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03793171",
+    "MMP03793171"
+  ],
+  "name": "Wenzhouxiangella marina strain KCTC 42284",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03793171",
+  "description": "Genome sequencing of Wenzhouxiangella marina using PacBio RS II sequencing platform",
+  "dataset": [
+    "PRJNA288075",
+    null,
+    "288075",
+    "288075",
+    null,
+    "GCF_001187785.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Indian Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Indian Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000372"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Wenzhouxiangella marina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Wenzhouxiangella marina",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1579979"
+        }
+      ]
+    }
+  ]
+}

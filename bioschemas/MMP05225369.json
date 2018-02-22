@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05225369",
+    "MMP05225369"
+  ],
+  "name": "Nocardia seriolae strain EM150506",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05225369",
+  "description": "Genome sequencing of Nocardia seriolae strain EM150506, an isolated from Anguilla japonica.",
+  "dataset": [
+    "PRJNA325707",
+    null,
+    "325707",
+    "325707",
+    null,
+    "GCF_001865855.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Nocardia seriolae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nocardia seriolae",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=37332"
+        }
+      ]
+    }
+  ]
+}

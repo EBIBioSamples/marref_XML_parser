@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04574079",
+    "MMP04574079"
+  ],
+  "name": "Phaeobacter gallaeciensis strain JL2886",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04574079",
+  "description": "Dissolved organic matter (DOM) in the ocean is the fundamental part of marine carbon biogeochemical cycles. The DOM pool is the largest organic carbon pool in the ocean. Exopolysaccharides (EPS) produced by marine bacteria are high molecular weight carbohydrate polymers, and it constitutes a large fraction of the total DOM in the sea. Meanwhile, EPS plays an important role in the material and energy cycle in the ocean. However, the significance of bacterial EPS in marine environments is not clearly understood, as not much is known about the contribution of bacterial EPS to the DOM pool and its bioavailability. Additionally, the current insights of EPS production are limited to microorganisms isolated from terrestrial environment and only a few studies have reported the EPS-producing bacteria which were retrieved from typical marine environments. So the strain Phaeobacter gallaeciensis JL2886 as EPS-producing bacteria in South China Sea was isolated and it as the type strain of deep sea EPS produced strain was sequenced for further research.",
+  "dataset": [
+    "PRJNA316055",
+    null,
+    "316055",
+    "316055",
+    null,
+    "GCF_001678945.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South China Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South China Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008989"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Phaeobacter gallaeciensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Phaeobacter gallaeciensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=60890"
+        }
+      ]
+    }
+  ]
+}

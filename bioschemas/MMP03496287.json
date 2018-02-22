@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03496287",
+    "MMP03496287"
+  ],
+  "name": "Maribacter sp. 1_2014MBL_MicDiv",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03496287",
+  "description": "The bacterium was isolated as part of teaching Cytophaga culturing techniques in 2014 Microbial Diversity course at Marine Biology Laboratory.",
+  "dataset": [
+    "PRJNA281767",
+    null,
+    "281767",
+    "281767",
+    null,
+    "GCF_001865655.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Woods Hole",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Woods Hole",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00148070"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Maribacter sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Maribacter sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1644130"
+        }
+      ]
+    }
+  ]
+}

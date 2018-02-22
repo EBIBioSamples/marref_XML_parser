@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02769551",
+    "MMP02769551"
+  ],
+  "name": "Prochlorococcus sp. MIT 0604",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02769551",
+  "description": "Genomes of diverse isolates of the marine cyanobacterium Prochlorococcus",
+  "dataset": [
+    "PRJNA246696",
+    null,
+    "246696",
+    "246696",
+    null,
+    "GCA_000757845.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Station ALOHA",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Station ALOHA",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00187529"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1501268"
+        }
+      ]
+    }
+  ]
+}

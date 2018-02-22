@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03738170",
+    "MMP03738170"
+  ],
+  "name": "Acidobacteria bacterium Mor1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03738170",
+  "description": "Uncultured bacterium associated with cyanobacterium Moorea producens JHB",
+  "dataset": [
+    "PRJNA285121",
+    null,
+    "285121",
+    "285121",
+    null,
+    "GCA_001664505.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jamaica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jamaica",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003781"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Acidobacteria bacterium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Acidobacteria bacterium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1660251"
+        }
+      ]
+    }
+  ]
+}

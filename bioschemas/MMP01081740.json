@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN01081740",
+    "MMP01081740"
+  ],
+  "name": "Synechococcus sp. PCC 7002",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP01081740",
+  "description": "Synechococcus sp. PCC 7002.The cyanobacterium Synechococcus sp. PCC 7002 (formerly known as Agmenellum quadruplicatum strain PR-6) was originally isolated in 1961 by Chase Van Baalen from an onshore; marine mud flat sample derived from fish pens on Maguyes Island; La Parguera; Puerto Rico. The organism grows in brackish (euryhaline/marine) water and is unicellular but tends to form short filaments of two to four cells during exponential growth at the temperature optimum of 38oC. The cells are 1.5 to 2.5 mkm in length and lack phycoerythrin and phycoerythrocyanin. Synechococcus sp. PCC 7002 can grow heterotrophically with glycerol as substrate; has an obligate requirement for vitamin B12; and most importantly; is naturally transformable. It is among the fastest growing of all cyanobacteria; and has a doubling time of about 3.5 hours under optimal conditions (light intensity ~250 mkmol photons m-2 s-1; nitrogen source urea; 2% (v/v) CO2). The strain is extremely tolerant of high light intensities and has been grown at light intensities equivalent to two suns. This unique combination of physiological and genetic properties have long made this strain an important model system to studies of the oxygenic photosynthetic apparatus; the regulation of carbon and nitrogen metabolism; and other aspects of cyanobacterial physiology and metabolism.",
+  "dataset": [
+    "PRJNA28247",
+    null,
+    "28247",
+    "28247",
+    null,
+    "GCA_000019485.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Isla Magueye",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Isla Magueye",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00047423"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Synechococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Synechococcus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32049"
+        }
+      ]
+    }
+  ]
+}

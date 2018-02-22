@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603337",
+    "MMP02603337"
+  ],
+  "name": "Candidatus Pelagibacter sp. IMCC9063",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603337",
+  "description": "Genomic DNA from Strain IMCC9063 from SAR11 group 3 isolated from an Arctic Envirionment.",
+  "dataset": [
+    "PRJNA62303",
+    null,
+    "62303",
+    "62303",
+    null,
+    "GCA_000195085.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kongsfjorden",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kongsfjorden",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00103800"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Candidatus Pelagibacter",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Candidatus Pelagibacter",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1002672"
+        }
+      ]
+    }
+  ]
+}

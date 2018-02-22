@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3245995",
+    "MMP3245995"
+  ],
+  "name": "Halomonas sp.R57-5",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3245995",
+  "description": "The marine isolate Halomonas sp. R57-5 has a number of biotechnologically-useful features including extra-cellular hydrolytic activities with several substrates and high salt tolerance over a wide range of temperatures. Draft genome sequencing identified genes involved in the biosynthesis of the osmoprotectant ectoine; which has applications in food processing and pharmacy; as well as those involved in production of polyhydroxyalkanoates (PHAs); which can serve as precursors to bioplastics. Here we present the finished genome sequence of Halomonas sp. R57-5 which will facilitate exploitation of this bacterium; either as a whole-cell production host; or by recombinant expression of its individual enzymes.",
+  "dataset": [
+    "PRJEB8412",
+    null,
+    "8412",
+    "8412",
+    null,
+    "GCF_001260615.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Barents Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Barents Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008673"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Halomonas",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Halomonas",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1610576"
+        }
+      ]
+    }
+  ]
+}

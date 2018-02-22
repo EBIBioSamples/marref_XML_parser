@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598301",
+    "MMP02598301"
+  ],
+  "name": "Shewanella frigidimarina NCIMB 400",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598301",
+  "description": "Shewanella frigidimarina strain NCIMB 400. This strain was originally classified as Shewanella putrefaciens; but recent reclassification due to rRNA and other analyses has resulted in the organism moving to the Shewanella frigidimarina lineage. This strain was isolated from the North Sea near Aberdeen; United Kingdom.",
+  "dataset": [
+    "PRJNA13391",
+    null,
+    "13391",
+    "13391",
+    null,
+    "GCA_000014705.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "North Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "North Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002284"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Shewanella frigidimarina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Shewanella frigidimarina",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=318167"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05162553",
+    "MMP05162553"
+  ],
+  "name": "Nocardiopsis dassonvillei strain NOCA502F",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05162553",
+  "description": "In this study, a actinomycetes strain, 502F , isolated from sediment samples from the Arctic Ocean has been identified as representing a novel species of the genus nocardiopsis.",
+  "dataset": [
+    "PRJNA322426",
+    null,
+    "322426",
+    "322426",
+    null,
+    "GCF_001877055.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Arctic Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Arctic Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000323"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Nocardiopsis dassonvillei",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Nocardiopsis dassonvillei",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2014"
+        }
+      ]
+    }
+  ]
+}

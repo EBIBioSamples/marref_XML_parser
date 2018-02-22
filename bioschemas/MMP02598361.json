@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598361",
+    "MMP02598361"
+  ],
+  "name": "Psychromonas ingrahamii 37",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598361",
+  "description": "Psychromonas ingrahamii 37. Psychromonas ingrahamii 37 was isolated from sea ice; off Point Barrow in northern Alaska. This organism is able to grow at -12oC; the lowest growth temperature for any bacterium to date. This organism will provide information on adaptation to extreme cold.",
+  "dataset": [
+    "PRJNA16187",
+    null,
+    "16187",
+    "16187",
+    null,
+    "GCA_000015285.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Point Barrow",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Point Barrow",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00133812"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Psychromonas ingrahamii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Psychromonas ingrahamii",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=357804"
+        }
+      ]
+    }
+  ]
+}

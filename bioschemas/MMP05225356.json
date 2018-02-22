@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05225356",
+    "MMP05225356"
+  ],
+  "name": "Vibrio scophthalmi strain VS-05",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05225356",
+  "description": "Genome sequencing of Vibrio scophthalmi VS-05, an isolated from Paralichthys olivaceus.",
+  "dataset": [
+    "PRJNA325197",
+    null,
+    "325197",
+    "325197",
+    null,
+    "GCF_001687805.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio scophthalmi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio scophthalmi",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=45658"
+        }
+      ]
+    }
+  ]
+}

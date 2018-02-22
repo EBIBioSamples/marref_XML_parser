@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00713635",
+    "MMP00713635"
+  ],
+  "name": "Lacinutrix sp. 5H-3-7-4",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713635",
+  "description": "Lacinutrix sp. 5H-3-7-4.This strain will be used for comparative genome analysis.",
+  "dataset": [
+    "PRJNA62899",
+    null,
+    "62899",
+    "62899",
+    null,
+    "GCA_000211855.3",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Suruga Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Suruga Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00146767"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Lacinutrix",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Lacinutrix",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=983544"
+        }
+      ]
+    }
+  ]
+}

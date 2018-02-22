@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603924",
+    "MMP02603924"
+  ],
+  "name": "Prochlorococcus marinus str. MIT 9515",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603924",
+  "description": "Prochlorococcus marinus str. MIT9515.This strain was collected from the surface waters of the Equatorial Pacific; and isolated by filter fractionation. It will be used for comparative genome analysis.",
+  "dataset": [
+    "PRJNA13617",
+    null,
+    "13617",
+    "13617",
+    null,
+    "GCA_000015665.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Equatorial Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Equatorial Pacific Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002409"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus marinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=167542"
+        }
+      ]
+    }
+  ]
+}

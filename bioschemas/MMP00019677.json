@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00019677",
+    "MMP00019677"
+  ],
+  "name": "Mehyloceanibacter caenitepidi Gela4",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00019677",
+  "description": "Complete genome of a novel marine methylotroph; Methyloceanibacter caenitepidi; was sequenced and analyzed.",
+  "dataset": [
+    "PRJDB3104",
+    null,
+    "3104",
+    "3104",
+    null,
+    "GCA_000828475.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kagoshima Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kagoshima Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000056"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Mehyloceanibacter caenitepidi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mehyloceanibacter caenitepidi",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1384459"
+        }
+      ]
+    }
+  ]
+}

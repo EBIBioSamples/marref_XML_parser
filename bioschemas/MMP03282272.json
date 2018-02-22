@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03282272",
+    "MMP03282272"
+  ],
+  "name": "Myroides profundi D25",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03282272",
+  "description": "Study the genomic evolution of Myroides Profundi D25",
+  "dataset": [
+    "PRJNA272451",
+    null,
+    "272451",
+    "272451",
+    null,
+    "GCA_000833025.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Okinawa Trough",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Okinawa Trough",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002413"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Myroides profundi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Myroides profundi",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=480520"
+        }
+      ]
+    }
+  ]
+}

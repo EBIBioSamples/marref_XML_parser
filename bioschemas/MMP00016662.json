@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00016662",
+    "MMP00016662"
+  ],
+  "name": "alpha proteobacterium HIMB5",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00016662",
+  "description": "alpha proteobacterium HIMB5.This strain was collected from Kaneohe Bay; outside the North channel.",
+  "dataset": [
+    "PRJNA50099",
+    null,
+    "50099",
+    "50099",
+    null,
+    "GCA_000299095.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kane'ohe Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kane'ohe Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00055951"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "alpha proteobacterium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "alpha proteobacterium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=859653"
+        }
+      ]
+    }
+  ]
+}

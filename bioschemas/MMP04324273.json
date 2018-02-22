@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04324273",
+    "MMP04324273"
+  ],
+  "name": "Lacimicrobium alkaliphilum strain KCTC 32984",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04324273",
+  "description": "Lacimicrobium alkaliphilum strain KCTC 32984 (= YelD216) for genome sequencing",
+  "dataset": [
+    "PRJNA305323",
+    null,
+    "305323",
+    "305323",
+    null,
+    "GCA_001466725.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Asan bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Asan bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00251738"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Lacimicrobium alkaliphilum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Lacimicrobium alkaliphilum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1526571"
+        }
+      ]
+    }
+  ]
+}

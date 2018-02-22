@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598321",
+    "MMP02598321"
+  ],
+  "name": "Prochlorococcus marinus str. MIT 9312",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598321",
+  "description": "Prochlorococcus marinus strain MIT 9312. This strain was isolated by flow cytometry from water collected from the Gulf Stream in the north Atlantic Ocean.",
+  "dataset": [
+    "PRJNA13910",
+    null,
+    "13910",
+    "13910",
+    null,
+    "GCA_000012645.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Atlantic Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Atlantic Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000344"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus marinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=74546"
+        }
+      ]
+    }
+  ]
+}

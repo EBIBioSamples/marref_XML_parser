@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03438109",
+    "MMP03438109"
+  ],
+  "name": "Citromicrobium sp. JL477",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03438109",
+  "description": "A comprehensive comparison of genomes of Citromicrobium spp. Strains",
+  "dataset": [
+    "PRJNA279210",
+    null,
+    "279210",
+    "279210",
+    null,
+    "GCA_001304795.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South China Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South China Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008989"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Citromicrobium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Citromicrobium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1634516"
+        }
+      ]
+    }
+  ]
+}

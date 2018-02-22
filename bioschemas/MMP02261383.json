@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02261383",
+    "MMP02261383"
+  ],
+  "name": "Mycobacterium rhodesiae NBB3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02261383",
+  "description": "This strain will be used for comparative analysis.",
+  "dataset": [
+    "PRJNA60027",
+    null,
+    "60027",
+    "60027",
+    null,
+    "GCA_000230895.3",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "New South Wales",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "New South Wales",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002793"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Mycobacterium rhodesiae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mycobacterium rhodesiae",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=710685"
+        }
+      ]
+    }
+  ]
+}

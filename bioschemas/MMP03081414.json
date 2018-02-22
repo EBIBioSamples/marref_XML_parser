@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03081414",
+    "MMP03081414"
+  ],
+  "name": "Methanosarcina acetivorans C2A",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03081414",
+  "description": "Methanosarcina acetivorans C2A. This wild-type strain (C2A; DSM2834) is the type strain of this species and was isolated from marine sediment.",
+  "dataset": [
+    "PRJNA290",
+    null,
+    "290",
+    "290",
+    null,
+    "GCA_000007345.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Scripps Canyon",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Scripps Canyon",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00187524"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanosarcina acetivorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanosarcina acetivorans",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=188937"
+        }
+      ]
+    }
+  ]
+}

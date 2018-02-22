@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603405",
+    "MMP02603405"
+  ],
+  "name": "Streptococcus iniae SF1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603405",
+  "description": "Streptococcus iniae SF1; complete genome. S. iniae SF1 is a pathogenic strain that had caused an epidemic in farmed flounder of China.",
+  "dataset": [
+    "PRJNA196817",
+    null,
+    "196817",
+    "196817",
+    null,
+    "GCA_000403625.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "China",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "China",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002845"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Streptococcus iniae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Streptococcus iniae",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1318633"
+        }
+      ]
+    }
+  ]
+}

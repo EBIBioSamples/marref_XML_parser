@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603923",
+    "MMP02603923"
+  ],
+  "name": "Maribacter sp. HTCC2170",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603923",
+  "description": "Maribacter sp. HTCC2170.This strain was collected from the coastal area of Newport; Oregon at a depth of 10 meters and was isolated by plating on solid media. This strain will be used for comparative analysis.",
+  "dataset": [
+    "PRJNA13595",
+    null,
+    "13595",
+    "13595",
+    null,
+    "GCA_000153165.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Portland",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Portland",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004418"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Maribacter",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Maribacter",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=313603"
+        }
+      ]
+    }
+  ]
+}

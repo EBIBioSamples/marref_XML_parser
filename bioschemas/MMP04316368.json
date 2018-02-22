@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04316368",
+    "MMP04316368"
+  ],
+  "name": "Ignicoccus islandicus DSM 13165",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04316368",
+  "description": "The genome sequence of this strain will provide information on the adaptation to high temperature environments and be used for evolutionary and comparative genomic analysis.",
+  "dataset": [
+    "PRJNA61347",
+    null,
+    "61347",
+    "61347",
+    null,
+    "GCA_001481685.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kolbeinsey Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kolbeinsey Ridge",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002489"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Ignicoccus islandicus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Ignicoccus islandicus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=940295"
+        }
+      ]
+    }
+  ]
+}

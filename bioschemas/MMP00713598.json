@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00713598",
+    "MMP00713598"
+  ],
+  "name": "Archaeoglobus veneficus SNP6",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713598",
+  "description": "Archaeoglobus veneficus SNP6. This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "PRJNA51621",
+    null,
+    "51621",
+    "51621",
+    null,
+    "GCA_000194625.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mid-Atlantic Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mid-Atlantic Ridge",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002439"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Archaeoglobus veneficus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Archaeoglobus veneficus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=693661"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA2735902",
+    "MMP2735902"
+  ],
+  "name": "Moritella viscosa 06/09/139",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2735902",
+  "description": "Aliivibrio wodanis and Moritella viscosa have often been isolated together from fish with winter ulcer. Little is known about the interaction between the two bacterial species and how the presence of one bacterial species affects the behaviour of the other. The impact on bacterial growth in co-culture was investigated in vitro; and the presence of A. wodanis has a strong inhibitorial effect on M. viscosa. Further; we have sequenced the complete genomes of these two marine Gram-negative species; and have performed transcriptome analysis of the bacterial gene expression levels from in vivo samples. Using bacterial implants in the fish abdomen; we demonstrate that the presence of A. wodanis is altering the gene expression levels of M. viscosa compared to when the bacteria are implanted separately. The impeding effect on growth and the change in the global gene expression pattern of M. viscosa when the two pathogens co-exists is discussed in this paper.",
+  "dataset": [
+    "PRJEB6964",
+    null,
+    "6964",
+    "6964",
+    null,
+    "GCF_000953735.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kingdom of Norway",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kingdom of Norway",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002699"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Moritella viscosa",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Moritella viscosa",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=80854"
+        }
+      ]
+    }
+  ]
+}

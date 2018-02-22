@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04867928",
+    "MMP04867928"
+  ],
+  "name": "Vibrio breoganii strain FF50",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04867928",
+  "description": "Alginate metabolism has a complex history in the Vibrionaceae, marine microbes that are typically found in coastal ecosystems. We show that a rich history of horizontal gene transfer is responsible for the diversification of this metabolic strategy.",
+  "dataset": [
+    "PRJNA318805",
+    null,
+    "318805",
+    "318805",
+    null,
+    "GCF_001677275.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Commonwealth of Massachusetts",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Commonwealth of Massachusetts",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002537"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio breoganii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio breoganii",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=553239"
+        }
+      ]
+    }
+  ]
+}

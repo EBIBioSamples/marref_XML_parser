@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02604029",
+    "MMP02604029"
+  ],
+  "name": "Persephonella marina EX-H1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604029",
+  "description": "Persephonella marina EX-H1.This strain was collected from a deep sea hydrothermal vent on the East Pacific Rise. and isolated by dilution to extinction methods.",
+  "dataset": [
+    "PRJNA12526",
+    null,
+    "12526",
+    "12526",
+    null,
+    "GCA_000021565.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "East Pacific Rise",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "East Pacific Rise",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002416"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Persephonella marina",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Persephonella marina",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=123214"
+        }
+      ]
+    }
+  ]
+}

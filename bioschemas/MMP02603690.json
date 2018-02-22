@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603690",
+    "MMP02603690"
+  ],
+  "name": "Candidatus Pelagibacter ubique HTCC1062",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603690",
+  "description": "Pelagibacter ubique strain HTCC1062. This organism is used in comparative genomics. The chromosome encodes biosynthetic pathways for all twenty amino acids and many enzymatic cofactors. There appears to be no recently horizontally transferred DNA in this organism and it does not even contain transposable elements although it does encode DNA uptake genes. The bacterium can generate energy through a light-driven proteorhodopsin proton pump or via respiration. Many metabolic pathways; including the Entner-Duodoroff; TCA; and glyoxylate bypass are present. This organism also encodes genes for type II secretion and type IV pilus synthesis.",
+  "dataset": [
+    "PRJNA13989",
+    null,
+    "13989",
+    "13989",
+    null,
+    "GCA_000012345.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "North Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "North Pacific Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002410"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Candidatus Pelagibacter ubique",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Candidatus Pelagibacter ubique",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=335992"
+        }
+      ]
+    }
+  ]
+}

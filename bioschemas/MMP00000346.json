@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00000346",
+    "MMP00000346"
+  ],
+  "name": "Winogradskyella sp. PG-2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00000346",
+  "description": "This organism will be used for comparative analysis to investigate function and evolution of proteorhodopsin.",
+  "dataset": [
+    "PRJDB1597",
+    null,
+    "1597",
+    "1597",
+    null,
+    "GCA_000828715.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sagami Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sagami Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002780"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Winogradskyella",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Winogradskyella",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=754409"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603916",
+    "MMP02603916"
+  ],
+  "name": "Robiginitalea biformata HTCC2501",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603916",
+  "description": "Robiginitalea biformata strain HTCC2501. Strain HTCC2501 is the type strain and will be used in comparative genomics with other marine microorganisms.",
+  "dataset": [
+    "PRJNA13461",
+    null,
+    "13461",
+    "13461",
+    null,
+    "GCA_000024125.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sargasso Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sargasso Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002454"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Robiginitalea biformata",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Robiginitalea biformata",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=313596"
+        }
+      ]
+    }
+  ]
+}

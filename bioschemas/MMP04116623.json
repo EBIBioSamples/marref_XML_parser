@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04116623",
+    "MMP04116623"
+  ],
+  "name": "Salegentibacter sp. T436",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04116623",
+  "description": "Genome sequencing of bionitration strains",
+  "dataset": [
+    "PRJNA297197",
+    null,
+    "297197",
+    "297197",
+    null,
+    "GCF_001932675.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Arctic Ocean:Fram Strait",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Arctic Ocean:Fram Strait",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000060"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Salegentibacter sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Salegentibacter sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1729720"
+        }
+      ]
+    }
+  ]
+}

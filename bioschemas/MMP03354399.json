@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03354399",
+    "MMP03354399"
+  ],
+  "name": "Francisella noatunensis subsp. orientalis strain FNO01",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03354399",
+  "description": "Francisella noatunensis subs. orientalis is a pathogen that causes granulomatous systemic infection in nile tilapia (Oreochromis niloticus) and is associated with considerable morbidity and mortality in fish farms on diferents locals around the world.",
+  "dataset": [
+    "PRJNA275870",
+    null,
+    "275870",
+    "275870",
+    null,
+    "GCF_001190905.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Brazil",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Brazil",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002828"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Francisella noatunensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Francisella noatunensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=299583"
+        }
+      ]
+    }
+  ]
+}

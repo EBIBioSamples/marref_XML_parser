@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05428979",
+    "MMP05428979"
+  ],
+  "name": "Stappia sp. ES.058",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05428979",
+  "description": "Stappia sp. ES.058",
+  "dataset": [
+    "PRJEB16493",
+    null,
+    "16493",
+    "16493",
+    null,
+    "GCA_900105595.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Stappia sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Stappia sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1881061"
+        }
+      ]
+    }
+  ]
+}

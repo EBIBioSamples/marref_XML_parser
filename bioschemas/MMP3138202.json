@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3138202",
+    "MMP3138202"
+  ],
+  "name": "Alcanivorax borkumensis SK2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138202",
+  "description": "Alcanivorax borkumensis strain SK2.This is the type strain for the species; and is used for comparative genomics.",
+  "dataset": [
+    "PRJNA13005",
+    null,
+    "13005",
+    "13005",
+    null,
+    "GCA_000009365.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Borkum Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Borkum Island",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002655"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Alcanivorax borkumensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alcanivorax borkumensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=393595"
+        }
+      ]
+    }
+  ]
+}

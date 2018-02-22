@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03010338",
+    "MMP03010338"
+  ],
+  "name": "Paenibacillus durus DSM 1735",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03010338",
+  "description": "Type strain of Paenibacillus durus",
+  "dataset": [
+    "PRJNA259665",
+    null,
+    "259665",
+    "259665",
+    null,
+    "GCA_000756615.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Black Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Black Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008171"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Paenibacillus durus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Paenibacillus durus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=44251"
+        }
+      ]
+    }
+  ]
+}

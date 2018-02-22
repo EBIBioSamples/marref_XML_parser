@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03377046",
+    "MMP03377046"
+  ],
+  "name": "Methylophilales bacterium MBRSF5",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03377046",
+  "description": "The OM43 Clade encompasses bacteria that oxidize methanol for energy and growth. Only two marine isolates exist to date from the Oregon coast (HTCC8121) and Hawaii (KB13) but no description has been made from the Red Sea; which is more ultra-oligotrophic; and experiences conditions representing a worst-case-scenario for global warming oceans. The comparison of OM43 strains provides a better understanding of their biogeography and ecological roles in disparate marine provinces of the global ocean.",
+  "dataset": [
+    "PRJNA276503",
+    null,
+    "276503",
+    "276503",
+    null,
+    "GCF_001044335.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Red Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Red Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002456"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methylophilales bacterium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methylophilales bacterium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1623448"
+        }
+      ]
+    }
+  ]
+}

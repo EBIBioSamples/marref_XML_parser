@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598493",
+    "MMP02598493"
+  ],
+  "name": "Methanocaldococcus vulcanius M7",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598493",
+  "description": null,
+  "dataset": [
+    "PRJNA33047",
+    null,
+    "33047",
+    "33047",
+    null,
+    "GCA_000024625.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "East Pacific Rise",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "East Pacific Rise",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002416"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanocaldococcus vulcanius",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanocaldococcus vulcanius",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=579137"
+        }
+      ]
+    }
+  ]
+}

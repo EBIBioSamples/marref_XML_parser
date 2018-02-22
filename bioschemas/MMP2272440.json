@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA2272440",
+    "MMP2272440"
+  ],
+  "name": "Desulfovibrio hydrothermalis AM13",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272440",
+  "description": "Desulfovibrio hydrothermalis AM13T is a mesophilic; hydrogenotrophic; sulfate-reducing bacterium isolated from a deep-sea hydrothermal chimney sample collected at 13\u00ac\u00f8\u00ac\u00f8 N on the East-Pacific Rise at a depth of 2600 m. D. hydrothermalis is piezophilic; having an optimal growth at 25 MPa. Here we report the complete genome sequence of strain AM13; the type strain of D. hydrothermalis. The genome sequence is 3;702;934 bp lengh; with a G+C content of 45;14%. Moreover; the genome includes a circular plasmid of 5;328 bp. The genome reveals a view of the adaptation strategy to life in the depth in Desulfovibrio.",
+  "dataset": [
+    "PRJEB582",
+    null,
+    "582",
+    "582",
+    null,
+    "GCA_000331025.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "East Pacific Rise",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "East Pacific Rise",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002416"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Desulfovibrio hydrothermalis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Desulfovibrio hydrothermalis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1121451"
+        }
+      ]
+    }
+  ]
+}

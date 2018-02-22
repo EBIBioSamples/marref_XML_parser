@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA2272589",
+    "MMP2272589"
+  ],
+  "name": "Thalassolituus oleivorans MIL-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP2272589",
+  "description": "Thalassolituus oleivorans is one of the most prevalent marine gammaproteobacteria at oil spill sites in coastal; estuarine and surface seawater. Here; we present the assembled genome of the type strain; Thalassolituus oleivorans MIL-1 DSM 14913T; (3.920.328\u00ac\u00f8\u00ac\u00f8\u00ac\u00f8\u00ac\u00f8\u00ac\u00f8bp with a G+C content of 46.6%).",
+  "dataset": [
+    "PRJEB1425",
+    null,
+    "1425",
+    "1425",
+    null,
+    "GCA_000355675.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Island of Sicily",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Island of Sicily",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008196"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thalassolituus oleivorans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thalassolituus oleivorans",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1298593"
+        }
+      ]
+    }
+  ]
+}

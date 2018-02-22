@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05726019",
+    "MMP05726019"
+  ],
+  "name": "Hydrogenophaga sp. LPB0072",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05726019",
+  "description": "Taxonomy study and genome analysis of Hydrogenophaga sp. LPB0072",
+  "dataset": [
+    "PRJNA341556",
+    null,
+    "341556",
+    "341556",
+    null,
+    "GCF_001761385.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Hydrogenophaga sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hydrogenophaga sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1763535"
+        }
+      ]
+    }
+  ]
+}

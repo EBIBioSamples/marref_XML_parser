@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMD00060915",
+    "MMP00060915"
+  ],
+  "name": "Sulfurovum sp. NBC37-1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00060915",
+  "description": "Sulfurovum sp. NBC37-1.This strain was isolated from a deep-sea hydrothermal vent in the Iheya North field in the Mid-Okinawa Trough as part of a larger diversity study.",
+  "dataset": [
+    "PRJDA18965",
+    null,
+    "18965",
+    "18965",
+    null,
+    "GCA_000010345.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Iheya North Field",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Iheya North Field",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000037"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Sulfurovum sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sulfurovum sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=387093"
+        }
+      ]
+    }
+  ]
+}

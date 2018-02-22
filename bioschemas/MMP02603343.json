@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603343",
+    "MMP02603343"
+  ],
+  "name": "Methylophaga sp. JAM7",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603343",
+  "description": "The goal of this project is to characterize a denitrifying biofilm in seawater. After identifying the more abundant bacteria in the biofilm; we wish to understand what they do and how do they interact with each other.",
+  "dataset": [
+    "PRJNA84459",
+    null,
+    "84459",
+    "84459",
+    null,
+    "GCA_000260965.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Montreal",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Montreal",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003130"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methylophaga",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methylophaga",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=754477"
+        }
+      ]
+    }
+  ]
+}

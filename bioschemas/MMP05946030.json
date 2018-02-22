@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05946030",
+    "MMP05946030"
+  ],
+  "name": "Caldithrix abyssi DSM 13497",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05946030",
+  "description": "genome sequence of the first cultivated representative of the phylum Caldithrichaeota",
+  "dataset": [
+    "PRJNA350778",
+    null,
+    "350778",
+    "350778",
+    null,
+    "GCF_001886815.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mid-Atlantic Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mid-Atlantic Ridge",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002439"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Caldithrix abyssi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Caldithrix abyssi",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=880073"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603288",
+    "MMP02603288"
+  ],
+  "name": "Prochlorococcus marinus str. MIT 9301",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603288",
+  "description": "Prochlorococcus marinus strain MIT 9301. This strain was isolated from the Sargasso Sea at a depth of 90 m (34o 45.5'N; 66o 11.1'W). This strain belongs to the 'high light-adapted' ecotype; clade II; and has a low Chl b/a2 ratio.",
+  "dataset": [
+    "PRJNA15746",
+    null,
+    "15746",
+    "15746",
+    null,
+    "GCA_000015965.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sargasso Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sargasso Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002454"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Prochlorococcus marinus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Prochlorococcus marinus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=167546"
+        }
+      ]
+    }
+  ]
+}

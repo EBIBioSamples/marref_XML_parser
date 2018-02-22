@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02940924",
+    "MMP02940924"
+  ],
+  "name": "Vibrio tubiashii ATCC 19109",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02940924",
+  "description": "Vibrio tubiashii is the cause of bacillary necrosis in larval shellfish. It is a naturally occurring; Gram-negative; marine bacterium that has long been associated with high mortalities of larval shellfish and significant economic losses in shellfish hatcheries. High mortalities in larval oyster and clam production facilities have been associated with contamination by V. tubiashii and have led to reductions in the availability of seed oysters and clams needed for commercial shellfish planting.",
+  "dataset": [
+    "PRJNA256164",
+    null,
+    "256164",
+    "256164",
+    null,
+    "GCF_000772105.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Long Island Sound",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Long Island Sound",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002590"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio tubiashii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio tubiashii",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1051646"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02604003",
+    "MMP02604003"
+  ],
+  "name": "Ruegeria pomeroyi DSS-3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604003",
+  "description": "Ruegeria pomeroyi strain DSS-3. Formerly Silicibacter pomeroyi; his marine bacterium is a member of the Roseobacter clade and was isolated off of the coast of Georgia in 1998. DSS-3 is the type strain for this species. Analysis will provide insight into sulfur cycling by microbes in marine environments.",
+  "dataset": [
+    "PRJNA281",
+    null,
+    "281",
+    "281",
+    null,
+    "GCA_000011965.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "North Atlantic Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "North Atlantic Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000377"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Ruegeria pomeroyi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Ruegeria pomeroyi",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=246200"
+        }
+      ]
+    }
+  ]
+}

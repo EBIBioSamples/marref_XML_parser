@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3138224",
+    "MMP3138224"
+  ],
+  "name": "Pseudoalteromonas haloplanktis TAC125",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138224",
+  "description": "Pseudoalteromonas haloplanktis TAC125. This strain was isolated from a sample of coastal sea water near a French Antarctic station (66O40' S; 140O 01' E near Dumont d'Urville).",
+  "dataset": [
+    "PRJNA15713",
+    null,
+    "15713",
+    "15713",
+    null,
+    "GCA_000026085.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Dumont d'Urville Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Dumont d'Urville Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00051499"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pseudoalteromonas haloplanktis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pseudoalteromonas haloplanktis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=326442"
+        }
+      ]
+    }
+  ]
+}

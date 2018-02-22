@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603622",
+    "MMP02603622"
+  ],
+  "name": "Phaeobacter gallaeciensis 2.10(Roseobacter gallaeciensis)",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603622",
+  "description": "Phaeobacter gallaeciensis 2.10. This strain has been shown to protect scallop larvae from Vibrio infection and is being sequenced for comparative genome analysis.",
+  "dataset": [
+    "PRJNA19353",
+    null,
+    "19353",
+    "19353",
+    null,
+    "GCA_000154745.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Australia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Australia",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000463"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Phaeobacter gallaeciensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Phaeobacter gallaeciensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=383629"
+        }
+      ]
+    }
+  ]
+}

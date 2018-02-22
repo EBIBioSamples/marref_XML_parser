@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3138336",
+    "MMP3138336"
+  ],
+  "name": "Photobacterium profundum SS9",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138336",
+  "description": "Photobacterium profundum strain SS9.This is the type strain for the species. It was isolated at a depth of 2500 m from the Sulu Trough. The genome contains 15 rRNA operons; the majority of which are on chromosome 1. There are 2 ATP synthase operons; one on each chromosome. Chromosome 1 contains more conserved genes; while chromosome 2 contains a large proportion of unique genes. High-pressure adaption has been studied by microarray analysis (ArrayExpress - E-MEXP-210).",
+  "dataset": [
+    "PRJNA13128",
+    null,
+    "13128",
+    "13128",
+    null,
+    "GCA_000196255.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sulu Trough",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sulu Trough",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002419"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Photobacterium profundum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Photobacterium profundum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=298386"
+        }
+      ]
+    }
+  ]
+}

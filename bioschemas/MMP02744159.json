@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02744159",
+    "MMP02744159"
+  ],
+  "name": "Thermotoga sp. RQ7",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02744159",
+  "description": "The complete genome of T. sp. strain RQ7 was sequenced to understand the genomic variations of the genus for basic research and industrial applications. env_temp: 76-82",
+  "dataset": [
+    "PRJNA246218",
+    null,
+    "246218",
+    "246218",
+    null,
+    "GCA_000832145.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Ribeira Quente",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Ribeira Quente",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008582"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermotoga",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermotoga",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=126738"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3451356",
+    "MMP3451356"
+  ],
+  "name": "Halolamina sediminis strain halo7",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3451356",
+  "description": "Complete genome analysis for Halolamina sediminis strain halo7 isolated from solar saltern",
+  "dataset": [
+    "PRJEB9600",
+    null,
+    "9600",
+    "9600",
+    null,
+    "GCF_001282785.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Yellow Sea coastal waters of the Korean Peninsula",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Yellow Sea coastal waters of the Korean Peninsula",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00144490"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Halolamina sediminis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Halolamina sediminis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1480675"
+        }
+      ]
+    }
+  ]
+}

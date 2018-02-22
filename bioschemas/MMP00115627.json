@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00115627",
+    "MMP00115627"
+  ],
+  "name": "Ferrimonas balearica DSM 9799",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00115627",
+  "description": "Ferrimonas balearica DSM 9799. Ferrimonas balearica DSM 9799 will be used for comparative analysis with other iron-reducing bacteria.",
+  "dataset": [
+    "PRJNA30799",
+    null,
+    "30799",
+    "30799",
+    null,
+    "GCA_000148645.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Palma de Mallorca",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Palma de Mallorca",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007225"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Ferrimonas balearica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Ferrimonas balearica",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=550540"
+        }
+      ]
+    }
+  ]
+}

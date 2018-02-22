@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598497",
+    "MMP02598497"
+  ],
+  "name": "Hirschia baltica ATCC 49814",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598497",
+  "description": "Hirschia baltica ATCC 49814. Hirschia baltica ATCC 49814 will be used for comparative analysis with other budding bacteria.",
+  "dataset": [
+    "PRJNA33191",
+    null,
+    "33191",
+    "33191",
+    null,
+    "GCA_000023785.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kiel Fjord",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kiel Fjord",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002698"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Hirschia baltica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hirschia baltica",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=582402"
+        }
+      ]
+    }
+  ]
+}

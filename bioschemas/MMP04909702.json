@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04909702",
+    "MMP04909702"
+  ],
+  "name": "Pelobacter acetylenicus strain DSM 3247",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04909702",
+  "description": "Pelobacter acetylenicus DSM 3246 genome sequencing and assembly to understand the genetic mechanism of acetylene fermentation and metabolic diversity of the Pelobacter genus.",
+  "dataset": [
+    "PRJNA319824",
+    null,
+    "319824",
+    "319824",
+    null,
+    "GCF_001887715.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Venice",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Venice",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008207"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pelobacter acetylenicus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pelobacter acetylenicus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29542"
+        }
+      ]
+    }
+  ]
+}

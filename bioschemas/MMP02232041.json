@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02232041",
+    "MMP02232041"
+  ],
+  "name": "Muricauda ruestringensis DSM 13258",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02232041",
+  "description": "This strain is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "PRJNA52467",
+    null,
+    "52467",
+    "52467",
+    null,
+    "GCA_000224085.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jadebusen",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jadebusen",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008143"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Muricauda ruestringensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Muricauda ruestringensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=886377"
+        }
+      ]
+    }
+  ]
+}

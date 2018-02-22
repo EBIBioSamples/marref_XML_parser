@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05366382",
+    "MMP05366382"
+  ],
+  "name": "Planococcus maritimus strain DSM 17275",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05366382",
+  "description": "Planococcus maritimus type strain sequencing project",
+  "dataset": [
+    "PRJNA328207",
+    null,
+    "328207",
+    "328207",
+    null,
+    "GCF_001687625.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Yellow Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Yellow Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004690"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Planococcus maritimus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Planococcus maritimus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=192421"
+        }
+      ]
+    }
+  ]
+}

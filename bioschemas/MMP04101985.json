@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04101985",
+    "MMP04101985"
+  ],
+  "name": "Rhodococcus sp. 008",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04101985",
+  "description": "Investigation of the ureolytic bacteria in symbiosis with skate fish.",
+  "dataset": [
+    "PRJNA296603",
+    null,
+    "296603",
+    "296603",
+    null,
+    "GCF_001682295.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Newfoundland",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Newfoundland",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007058"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Rhodococcus sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Rhodococcus sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1723645"
+        }
+      ]
+    }
+  ]
+}

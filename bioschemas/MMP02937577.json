@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02937577",
+    "MMP02937577"
+  ],
+  "name": "Cellulophaga lytica strain HI1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02937577",
+  "description": "PacBio SMRT sequencing of Cellulophaga lytica (HI1) genome.",
+  "dataset": [
+    "PRJNA256111",
+    null,
+    "256111",
+    "256111",
+    null,
+    "GCA_000750195.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Oahu",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Oahu",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003187"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Cellulophaga lytica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Cellulophaga lytica",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=979"
+        }
+      ]
+    }
+  ]
+}

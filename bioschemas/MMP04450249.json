@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04450249",
+    "MMP04450249"
+  ],
+  "name": "Yangia sp. CCB-MM3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04450249",
+  "description": "It is part of a project to characterize the microbiome of Malaysian mangrove soil.",
+  "dataset": [
+    "PRJNA310305",
+    null,
+    "310305",
+    "310305",
+    null,
+    "GCF_001687105.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Malaysia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Malaysia",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003902"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Yangia sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Yangia sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1792508"
+        }
+      ]
+    }
+  ]
+}

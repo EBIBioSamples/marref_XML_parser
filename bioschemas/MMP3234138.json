@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3234138",
+    "MMP3234138"
+  ],
+  "name": "Filomicrobium sp. W1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3234138",
+  "description": "Two strains of Filomicrobium that can utilize methanesulfonate as sole source of carbon and energy were isolated form North Atlantic surface seawater (off Northern Portugal). The two strains differed in pigmentation (strain W was white; strain Y was yellow); but their genomes are almost identical.",
+  "dataset": [
+    "PRJEB8348",
+    null,
+    "8348",
+    "8348",
+    null,
+    "GCF_000981565.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "North Atlantic Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "North Atlantic Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000377"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Filomicrobium",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Filomicrobium",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1608628"
+        }
+      ]
+    }
+  ]
+}

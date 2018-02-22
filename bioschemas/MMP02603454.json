@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603454",
+    "MMP02603454"
+  ],
+  "name": "Teredinibacter turnerae T7901",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603454",
+  "description": "Teredinibacter turnerae T7901. Teredinibacter turnerae T7901 is a dinitrogen-fixing; cellulolytic; endosymbiotic gamma-proteobacterium isolated from the gills of the wood-boring mollusc (Bivalvia:Teredinidae) and may potentially be useful in biofuel production.",
+  "dataset": [
+    "PRJNA30839",
+    null,
+    "30839",
+    "30839",
+    null,
+    "GCA_000023025.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Newport River",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Newport River",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00206182"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Teredinibacter turnerae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Teredinibacter turnerae",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=377629"
+        }
+      ]
+    }
+  ]
+}

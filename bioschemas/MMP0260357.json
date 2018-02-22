@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603570",
+    "MMP0260357"
+  ],
+  "name": "Vibrio sp. Ex25",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP0260357",
+  "description": "Vibrio sp. Ex25. Vibrio sp. EX25 was isolated from samples taken from a deep-sea hydrothermal vent community along the East Pacific Rise.",
+  "dataset": [
+    "PRJNA40507",
+    null,
+    "40507",
+    "40507",
+    null,
+    "GCA_000024825.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "East Pacific Rise",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "East Pacific Rise",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002416"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio antiquarius",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio antiquarius",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=150340"
+        }
+      ]
+    }
+  ]
+}

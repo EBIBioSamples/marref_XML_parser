@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02744041",
+    "MMP02744041"
+  ],
+  "name": "Cenarchaeum symbiosum A",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02744041",
+  "description": "Cenarchaeum symbiosum A. This population was derived from assembled contigs. Genbank sequences from Cenarchaeum symbiosum A can be accessed under accessions DQ397540-DQ397640; for the contigs; and under DP000238 for the complete genome.",
+  "dataset": [
+    "PRJNA202",
+    null,
+    "202",
+    "202",
+    null,
+    "GCA_000200715.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Santa Barbara",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Santa Barbara",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00265488"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Cenarchaeum symbiosum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Cenarchaeum symbiosum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=414004"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04259808",
+    "MMP04259808"
+  ],
+  "name": "Pseudoalteromonas phenolica strain KCTC 12086",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04259808",
+  "description": "Genome sequencing of Pseudoalteromonas phenolica using PacBio sequencing platform",
+  "dataset": [
+    "PRJNA301786",
+    null,
+    "301786",
+    "301786",
+    null,
+    "GCF_001444405.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Japan",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Japan",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002747"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pseudoalteromonas phenolica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pseudoalteromonas phenolica",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=161398"
+        }
+      ]
+    }
+  ]
+}

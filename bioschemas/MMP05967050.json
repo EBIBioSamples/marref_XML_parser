@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05967050",
+    "MMP05967050"
+  ],
+  "name": "Erythrobacter gangjinensis strain JCM 15420",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05967050",
+  "description": "This project was used for comparative genomic analysis of genus Erythrobacter, calculating ANI value and the G+C content of whole genome in new microbial species polyphasic characterization.",
+  "dataset": [
+    "PRJNA352100",
+    null,
+    "352100",
+    "352100",
+    null,
+    "GCF_001886695.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gangjin Bay",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gangjin Bay",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00128533"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Erythrobacter gangjinensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Erythrobacter gangjinensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=502682"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603333",
+    "MMP02603333"
+  ],
+  "name": "Thermococcus gammatolerans EJ3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603333",
+  "description": "Thermococcus gammatolerans EJ3. The genome sequence of this organism will allow comparison with other Thermococcales and genome-scale proteomic investigation of the most radioresistant hyperthermophilic archaea.",
+  "dataset": [
+    "PRJNA33671",
+    null,
+    "33671",
+    "33671",
+    null,
+    "GCA_000022365.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Guaymas Basin",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Guaymas Basin",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002281"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermococcus gammatolerans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermococcus gammatolerans",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=593117"
+        }
+      ]
+    }
+  ]
+}

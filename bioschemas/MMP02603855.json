@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603855",
+    "MMP02603855"
+  ],
+  "name": "Zunongwangia profunda SM-A87",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603855",
+  "description": "Zunongwangia profunda SM-A87.This strain will be used for comparative genome analysis.",
+  "dataset": [
+    "PRJNA38641",
+    null,
+    "38641",
+    "38641",
+    null,
+    "GCA_000023465.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Okinawa Trough",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Okinawa Trough",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002413"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Zunongwangia profunda",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Zunongwangia profunda",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=655815"
+        }
+      ]
+    }
+  ]
+}

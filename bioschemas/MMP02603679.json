@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603679",
+    "MMP02603679"
+  ],
+  "name": "Thermococcus litoralis DSM 5473",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603679",
+  "description": "Thermococcus litoralis.",
+  "dataset": [
+    "PRJNA81925",
+    null,
+    "81925",
+    "81925",
+    null,
+    "GCA_000246985.3",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Gulf of Naples",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gulf of Naples",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007709"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermococcus litoralis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermococcus litoralis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=523849"
+        }
+      ]
+    }
+  ]
+}

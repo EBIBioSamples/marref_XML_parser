@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03437642",
+    "MMP03437642"
+  ],
+  "name": "Thermotoga maritima MSB8",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03437642",
+  "description": "Thermotoga maritima Genome sequencing and assembly. Sequenced by JGI",
+  "dataset": [
+    "PRJNA279291",
+    null,
+    "279291",
+    "279291",
+    null,
+    "GCF_000978555.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Vulcano",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vulcano",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002689"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermotoga maritima",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermotoga maritima",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=243274"
+        }
+      ]
+    }
+  ]
+}

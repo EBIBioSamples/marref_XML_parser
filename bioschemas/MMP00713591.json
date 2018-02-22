@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00713591",
+    "MMP00713591"
+  ],
+  "name": "Desulfurobacterium thermolithotrophum DSM 11699",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713591",
+  "description": "Desulfurobacterium thermolithotrophum DSM 11699.This organism is part of the GEBA (A Genomic Encyclopedia of Bacteria and Archaea) project.",
+  "dataset": [
+    "PRJNA51497",
+    null,
+    "51497",
+    "51497",
+    null,
+    "GCA_000191045.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Mid-Atlantic Ridge",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Mid-Atlantic Ridge",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002439"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Desulfurobacterium thermolithotrophum",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Desulfurobacterium thermolithotrophum",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=868864"
+        }
+      ]
+    }
+  ]
+}

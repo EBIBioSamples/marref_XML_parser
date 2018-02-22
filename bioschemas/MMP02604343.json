@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02604343",
+    "MMP02604343"
+  ],
+  "name": "Pelagibacterium halotolerans B2",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604343",
+  "description": "Pelagibacterium halotolerans B2 is a marine halotolerant bacterium that was isolated from a seawater sample collected from the East China Sea.",
+  "dataset": [
+    "PRJNA72927",
+    null,
+    "72927",
+    "72927",
+    null,
+    "GCA_000230555.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "East China Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "East China Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004689"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pelagibacterium halotolerans",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pelagibacterium halotolerans",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1082931"
+        }
+      ]
+    }
+  ]
+}

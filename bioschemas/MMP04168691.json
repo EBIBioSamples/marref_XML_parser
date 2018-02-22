@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04168691",
+    "MMP04168691"
+  ],
+  "name": "Vibrio cholerae strain Env-390",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04168691",
+  "description": "Track the emergence and spread of V. cholerae 01 during the Haitian epidemic from 2010-2012. -Assess the underlying evolutionary processes of the Haitian cholera epidemic -Evaluate the influence of selection on the V. cholera population",
+  "dataset": [
+    "PRJNA263670",
+    null,
+    "263670",
+    "263670",
+    null,
+    "GCF_001854425.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Haiti",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Haiti",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003953"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio cholerae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio cholerae",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=666"
+        }
+      ]
+    }
+  ]
+}

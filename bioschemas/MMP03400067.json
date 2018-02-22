@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03400067",
+    "MMP03400067"
+  ],
+  "name": "Geobacillus sp. 12AMOR1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03400067",
+  "description": "Characterization and genome sequence of Geobacillus sp. strain 12AMOR1 isolated from hydrothermal sediments in the Troll Wall Vent Field",
+  "dataset": [
+    "PRJNA277925",
+    null,
+    "277925",
+    "277925",
+    null,
+    "GCF_001028085.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jan Mayen",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jan Mayen",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00005853)"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Geobacillus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Geobacillus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1629723"
+        }
+      ]
+    }
+  ]
+}

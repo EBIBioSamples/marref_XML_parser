@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02208949",
+    "MMP02208949"
+  ],
+  "name": "Cellulophaga baltica 18",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02208949",
+  "description": "Genomes of Cellulophaga baltica bacteria used as host strains for viral studies",
+  "dataset": [
+    "PRJNA209292",
+    null,
+    "209292",
+    "209292",
+    null,
+    "GCA_000468615.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Oresund Straight",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Oresund Straight",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00008923"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Cellulophaga baltica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Cellulophaga baltica",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1348584"
+        }
+      ]
+    }
+  ]
+}

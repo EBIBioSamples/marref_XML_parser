@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03013826",
+    "MMP03013826"
+  ],
+  "name": "Thermotoga sp. 2812B",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03013826",
+  "description": "-",
+  "dataset": [
+    "PRJNA87043",
+    null,
+    "87043",
+    "87043",
+    null,
+    "GCA_000789335.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kuril Islands",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kuril Islands",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002737"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermotoga",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermotoga",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1157948"
+        }
+      ]
+    }
+  ]
+}

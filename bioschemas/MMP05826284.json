@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05826284",
+    "MMP05826284"
+  ],
+  "name": "Moorea producens JHB",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05826284",
+  "description": "The strain Moorea producens JHB 22AUG96-1 (aka JHB) was collected from Hector Bay, Jamaica, in August of 1996. It was isolated as a mono-algal culture, although remained non-axenic due to the presence of associated heterotrophs (such as Acidobacteria bacterium Mor1, ASM166450v1). Moorea producens JHB was sequenced by Illumina HiSeq platform. In this project, we used a reference genome (Moorea producens PAL 15AUG08-1) to substantially improve the assembly of M. producens JHB.",
+  "dataset": [
+    "PRJNA345361",
+    null,
+    "345361",
+    "345361",
+    null,
+    "GCF_001854205.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Jamaica",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Jamaica",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003781"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Moorea producens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Moorea producens",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1454205"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598275",
+    "MMP02598275"
+  ],
+  "name": "Chromohalobacter salexigens DSM 3043",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598275",
+  "description": "Chromohalobacter salexigens DSM 3043. Chromohalobacter salexigens DSM 3043 was first isolated from a solar salt facility on Bonaire Island; Netherlands Antilles. This is the type strain for the species and will be used for comparative genomics.",
+  "dataset": [
+    "PRJNA12636",
+    null,
+    "12636",
+    "12636",
+    null,
+    "GCA_000055785.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Bonaire Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Bonaire Island",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00004020"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Chromohalobacter salexigens",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Chromohalobacter salexigens",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=290398"
+        }
+      ]
+    }
+  ]
+}

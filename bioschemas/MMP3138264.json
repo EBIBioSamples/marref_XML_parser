@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMEA3138264",
+    "MMP3138264"
+  ],
+  "name": "Synechococcus sp. WH 7803",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP3138264",
+  "description": "Synechococcus sp. strain WH7803. Synechococcus sp. strain WH7803 was isolated from Sargasso Sea and will be used for comparative genomics.",
+  "dataset": [
+    "PRJNA13642",
+    null,
+    "13642",
+    "13642",
+    null,
+    "GCA_000063505.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Sargasso Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Sargasso Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002454"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Synechococcus",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Synechococcus",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32051"
+        }
+      ]
+    }
+  ]
+}

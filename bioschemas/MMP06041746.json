@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN06041746",
+    "MMP06041746"
+  ],
+  "name": "Vibrio harveyi strain QT520",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP06041746",
+  "description": "The microorganism is a virulent strain, based on the results of arti\ufb01cial infection tests.",
+  "dataset": [
+    "PRJNA340970",
+    null,
+    "340970",
+    "340970",
+    null,
+    "GCF_001908435.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "China",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "China",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002845"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Vibrio harveyi",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Vibrio harveyi",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=669"
+        }
+      ]
+    }
+  ]
+}

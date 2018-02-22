@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN04299559",
+    "MMP04299559"
+  ],
+  "name": "Pseudoalteromonas issachenkonii strain KCTC 12958",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP04299559",
+  "description": "Genome sequencing of Pseudoalteromonas issachenkonii KCTC 12958 using Pacbio sequencing platform",
+  "dataset": [
+    "PRJNA304356",
+    null,
+    "304356",
+    "304356",
+    null,
+    "GCF_001455325.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Kuril Islands",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Kuril Islands",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002737"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Pseudoalteromonas issachenkonii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pseudoalteromonas issachenkonii",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=152297"
+        }
+      ]
+    }
+  ]
+}

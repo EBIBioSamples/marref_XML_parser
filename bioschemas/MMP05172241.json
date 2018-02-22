@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05172241",
+    "MMP05172241"
+  ],
+  "name": "Candidatus Nitrosopelagicus brevis CN25",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05172241",
+  "description": "Ammonia oxidizing marine archaea",
+  "dataset": [
+    "PRJNA223412",
+    null,
+    "223412",
+    "223412",
+    null,
+    "GCA_000812185.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "North Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "North Pacific Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002410"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Candidatus Nitrosopelagicus brevis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Candidatus Nitrosopelagicus brevis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1410606"
+        }
+      ]
+    }
+  ]
+}

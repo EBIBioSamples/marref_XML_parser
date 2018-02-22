@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02604119",
+    "MMP02604119"
+  ],
+  "name": "Alteromonas macleodii AltDE1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02604119",
+  "description": "-",
+  "dataset": [
+    "PRJNA65403",
+    null,
+    "65403",
+    "65403",
+    null,
+    "GCA_000310085.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Adriatic Sea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Adriatic Sea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007625"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Alteromonas macleodii",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Alteromonas macleodii",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1004786"
+        }
+      ]
+    }
+  ]
+}

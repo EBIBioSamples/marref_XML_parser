@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00623068",
+    "MMP00623068"
+  ],
+  "name": "Thermosipho melanesiensis BI429",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00623068",
+  "description": "Thermosipho melanesiensis BI429. This organism (strain BI429) is part of a sequencing project consisting of seven Thermotogales that will hopefully address questions relating to horizontal gene transfer from archaeal organisms to this branch of the bacteria. BI429 (CIP 104789) is the type strain for this species and was isolated from the gills of Bathymodiolus brevior; a deep-seamussel. The sample was taken from the Lau Basin at the bottom of a black smoker between 1832 and 1887 metres (latitude; 22o329S; longitude; 176o439W). env_temp: 18-30",
+  "dataset": [
+    "PRJNA17249",
+    null,
+    "17249",
+    "17249",
+    null,
+    "GCA_000016905.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Lau Basin",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Lau Basin",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002279"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermosipho melanesiensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermosipho melanesiensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=391009"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02603718",
+    "MMP02603718"
+  ],
+  "name": "Methanococcus maripaludis X1",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02603718",
+  "description": "Microbial genome assembled from non-culturable petroleum reservoir formation sample. Reservoir fluids were collected from an offshore oil field; approx. 800 m depth; 50\u00ac\u221eC; with ~2.3% salinity in formation water.",
+  "dataset": [
+    "PRJNA68579",
+    null,
+    "68579",
+    "68579",
+    null,
+    "GCA_000220645.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Malaysia",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Malaysia",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00003902"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Methanococcus maripaludis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Methanococcus maripaludis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1053692"
+        }
+      ]
+    }
+  ]
+}

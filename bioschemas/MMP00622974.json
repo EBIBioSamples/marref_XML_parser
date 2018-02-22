@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00622974",
+    "MMP00622974"
+  ],
+  "name": "Psychromonas sp. CNPT3",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00622974",
+  "description": "Psychromonas sp. CNPT3. This strain was isolated from the central north Pacific Ocean at a depth of 5800 m by high pressure enrichment and high pressure colony formation. This organism is a deep-sea piezophilic heterotrophic marine microbe. It requires certain amino acids for growth.",
+  "dataset": [
+    "PRJNA13583",
+    null,
+    "13583",
+    "13583",
+    null,
+    "GCA_000153405.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Pacific Ocean",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Pacific Ocean",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00000360"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Psychromonas",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Psychromonas",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=314282"
+        }
+      ]
+    }
+  ]
+}

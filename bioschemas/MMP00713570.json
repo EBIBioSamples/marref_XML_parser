@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00713570",
+    "MMP00713570"
+  ],
+  "name": "Thermaerobacter marianensis DSM 12885",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00713570",
+  "description": "Thermaerobacter marianensis DSM 12885. This strain will be used for comparative genome analysis.",
+  "dataset": [
+    "PRJNA38025",
+    null,
+    "38025",
+    "38025",
+    null,
+    "GCA_000184705.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Challenger Deep",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Challenger Deep",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007907"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Thermaerobacter marianensis",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Thermaerobacter marianensis",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=644966"
+        }
+      ]
+    }
+  ]
+}

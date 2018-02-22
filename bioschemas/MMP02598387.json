@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN02598387",
+    "MMP02598387"
+  ],
+  "name": "Dinoroseobacter shibae DFL 12",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP02598387",
+  "description": "Dinoroseobacter shibae DFL 12.This type strain is being sequenced for comparative genome analysis.",
+  "dataset": [
+    "PRJNA17417",
+    null,
+    "17417",
+    "17417",
+    null,
+    "GCA_000018145.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Helgoland Islands",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Helgoland Islands",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002632"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Dinoroseobacter shibae",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Dinoroseobacter shibae",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=398580"
+        }
+      ]
+    }
+  ]
+}

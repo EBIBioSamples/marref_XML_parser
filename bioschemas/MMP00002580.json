@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN00002580",
+    "MMP00002580"
+  ],
+  "name": "Halogeometricum borinquense DSM 11551",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP00002580",
+  "description": "Halogeometricum borinquense DSM 11551. Halogeometricum borinquense DSM 11551 (ATCC 700274) was isolated from solar salterns in Puerto Rico. Halogeometricum borinquense DSM 11551 is the type strain and will be used for comparative analysis.",
+  "dataset": [
+    "PRJNA20743",
+    null,
+    "20743",
+    "20743",
+    null,
+    "GCA_000172995.2",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "Cabo Rojo",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Cabo Rojo",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00098641"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Halogeometricum borinquense",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Halogeometricum borinquense",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=469382"
+        }
+      ]
+    }
+  ]
+}

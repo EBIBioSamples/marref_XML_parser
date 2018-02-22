@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN03375744",
+    "MMP03375744"
+  ],
+  "name": "Hoeflea sp. IMCC20628",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP03375744",
+  "description": "Genome sequencing",
+  "dataset": [
+    "PRJNA276494",
+    null,
+    "276494",
+    "276494",
+    null,
+    "GCF_001011155.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "King George Island",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "King George Island",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00007425"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Hoeflea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Hoeflea",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1620421"
+        }
+      ]
+    }
+  ]
+}

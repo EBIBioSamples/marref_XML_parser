@@ -1,0 +1,52 @@
+{
+  "@context": "http://schema.org",
+  "@type": [
+    "BioChemEntity",
+    "Sample"
+  ],
+  "identifier": [
+    "SAMN05945920",
+    "MMP05945920"
+  ],
+  "name": "Gramella sp. LPB0144",
+  "url": "https://mmp.sfb.uit.no/databases/marref/#/records/MMP05945920",
+  "description": "Gramella sp. LPB0144",
+  "dataset": [
+    "PRJNA350755",
+    null,
+    "350755",
+    "350755",
+    null,
+    "GCF_001889005.1",
+    null,
+    null
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Geographic Location (GAZ)",
+      "value": "South Korea",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "South Korea",
+          "codeValue": null,
+          "url": "https://www.ebi.ac.uk/ols/ontologies/gaz/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGAZ_00002802"
+        }
+      ]
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Organism",
+      "value": "Gramella sp.",
+      "valueReference": [
+        {
+          "@type": "CategoryCode",
+          "name": "Gramella sp.",
+          "codeValue": null,
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1913577"
+        }
+      ]
+    }
+  ]
+}
