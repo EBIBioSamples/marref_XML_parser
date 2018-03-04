@@ -14,8 +14,14 @@ genus, family, order, class, phylum, kingdom
 import os
 import shutil
 import json
+import logging
 from bs4 import BeautifulSoup, Tag
 from boltons.iterutils import remap
+from tqdm import tqdm
+
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLoggerClass()
 
 output_folder = './bioschemas'
 
@@ -122,10 +128,12 @@ def record_to_jsonld(record_dict):
             jsonld['additionalProperty'] = add_properties
         elif key == 'identifier':
             identifiers = list()
-            for idorg, xml_key in value:
+            for idorg, xml_key in value.items():
                 identifier = record_dict.get(xml_key)
                 if identifier is not None:
                     identifiers.append("{}:{}".format(idorg, identifier))
+
+            jsonld['identifier'] = identifiers
         else:
             if isinstance(value, list):
                 jsonld[key] = [record_dict.get(v) for v in value if record_dict.get(v) is not None]
@@ -138,11 +146,13 @@ def souper(input_xml):
     with open(input_xml, encoding="utf-8") as fin:
         soup = BeautifulSoup(fin, "lxml")
         tag = soup.findAll('record')
-        for record in tag:
+        total_tags = len(tag)
+        print("Processing {:d} total MarRef files".format(total_tags))
+        for record in tqdm(list(tag)):
             record_dict = get_record_dict(record)
             jsonld = record_to_jsonld(record_dict)
             jsonld = remap(jsonld, drop_empty_values)
-            mmp_id = [_id for _id in jsonld['identifier'] if _id.startswith('MMP')][0]
+            mmp_id = [_id.replace("mmp.ref:","") for _id in jsonld['identifier'] if _id.startswith('mmp.ref')][0]
             filename = os.path.join(output_folder, "{}.json".format(mmp_id))
             with open(filename, 'w') as fout:
                 json.dump(jsonld, fout, indent=2)
