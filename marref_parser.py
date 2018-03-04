@@ -20,7 +20,10 @@ from boltons.iterutils import remap
 output_folder = './bioschemas'
 
 mapping_field = {
-    'identifier': ['biosampleaccession', 'mmpid'],
+    'identifier': {
+        'biosamples': 'biosampleaccession',
+        'mmp.ref': 'mmpid'
+    },
     'name': 'fullscientificname',
     'url': 'mmpid_url',
     'description': 'comments',
@@ -117,6 +120,12 @@ def record_to_jsonld(record_dict):
                     add_properties.append(add_prop)
 
             jsonld['additionalProperty'] = add_properties
+        elif key == 'identifier':
+            identifiers = list()
+            for idorg, xml_key in value:
+                identifier = record_dict.get(xml_key)
+                if identifier is not None:
+                    identifiers.append("{}:{}".format(idorg, identifier))
         else:
             if isinstance(value, list):
                 jsonld[key] = [record_dict.get(v) for v in value if record_dict.get(v) is not None]
